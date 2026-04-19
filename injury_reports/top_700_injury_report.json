@@ -1,0 +1,680 @@
+{
+  "generated_at": "2026-04-18T18:43:26",
+  "model": "gpt-5.4-mini",
+  "selection_mode": "unique-match-players",
+  "ranking_date": null,
+  "player_count": 100,
+  "player_start_index": 601,
+  "player_end_index": 700,
+  "batch_target_end_index": 700,
+  "batch_complete": true,
+  "total_players_in_scope": 1261,
+  "input_match_files": [
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2014.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2015.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2016.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2017.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2018.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2019.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2020.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2021.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2022.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2023.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2024.csv"
+  ],
+  "source_policy": {
+    "primary_allowed_domains": [
+      "apnews.com",
+      "atptour.com",
+      "ausopen.com",
+      "bbc.com",
+      "espn.com",
+      "olympics.com",
+      "reuters.com",
+      "rolandgarros.com",
+      "tennis.com",
+      "tennismajors.com",
+      "usopen.org",
+      "wimbledon.com"
+    ],
+    "expanded_allowed_domains": [
+      "apnews.com",
+      "atptour.com",
+      "ausopen.com",
+      "bbc.com",
+      "espn.com",
+      "olympics.com",
+      "reuters.com",
+      "rolandgarros.com",
+      "tennis.com",
+      "tennismajors.com",
+      "usopen.org",
+      "wimbledon.com",
+      "cbc.ca",
+      "sportskeeda.com",
+      "tennisworldusa.org",
+      "thesportsrush.com",
+      "yahoo.com"
+    ],
+    "user_location": {
+      "type": "approximate",
+      "country": "US",
+      "timezone": "America/New_York"
+    }
+  },
+  "players": {
+    "Nikola Cacic": {
+      "player_name": "Nikola Cacic",
+      "injuries": []
+    },
+    "Denis Shapovalov": {
+      "player_name": "Denis Shapovalov",
+      "injuries": []
+    },
+    "Reilly Opelka": {
+      "player_name": "Reilly Opelka",
+      "injuries": [
+        {
+          "injury_name": "hip injury",
+          "body_location": "hip",
+          "body_half": "bottom",
+          "joint_injury": false,
+          "acute_or_chronic": "chronic",
+          "injury_date": "2022-08",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.tennis.com/news/articles/reilly-opelka-out-of-australian-open-due-to-injuries",
+            "https://www.espn.com/top/story/_/id/38198903",
+            "https://www.tennis.com/news/articles/reilly-opelka-to-miss-all-four-majors-in-2023-as-american-withdraws-from-us-open"
+          ]
+        },
+        {
+          "injury_name": "ankle injury",
+          "body_location": "ankle",
+          "body_half": "bottom",
+          "joint_injury": true,
+          "acute_or_chronic": "chronic",
+          "injury_date": "2022-08",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.tennis.com/news/articles/reilly-opelka-out-of-australian-open-due-to-injuries",
+            "https://www.espn.com/top/story/_/id/38198903"
+          ]
+        },
+        {
+          "injury_name": "right wrist injury",
+          "body_location": "right wrist",
+          "body_half": "top",
+          "joint_injury": true,
+          "acute_or_chronic": "acute",
+          "injury_date": "2023-02",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.tennis.com/news/articles/reilly-opelka-to-miss-all-four-majors-in-2023-as-american-withdraws-from-us-open"
+          ]
+        }
+      ]
+    },
+    "Jan Satral": {
+      "player_name": "Jan Satral",
+      "injuries": []
+    },
+    "Kuan Yi Lee": {
+      "player_name": "Kuan Yi Lee",
+      "injuries": []
+    },
+    "Joris De Loore": {
+      "player_name": "Joris De Loore",
+      "injuries": []
+    },
+    "Antoine Bellier": {
+      "player_name": "Antoine Bellier",
+      "injuries": []
+    },
+    "Andrew Whittington": {
+      "player_name": "Andrew Whittington",
+      "injuries": []
+    },
+    "Alexander Bublik": {
+      "player_name": "Alexander Bublik",
+      "injuries": []
+    },
+    "Oliver Anderson": {
+      "player_name": "Oliver Anderson",
+      "injuries": []
+    },
+    "Benjamin Mitchell": {
+      "player_name": "Benjamin Mitchell",
+      "injuries": []
+    },
+    "Mubarak Shannan Zayid": {
+      "player_name": "Mubarak Shannan Zayid",
+      "injuries": []
+    },
+    "Finn Tearney": {
+      "player_name": "Finn Tearney",
+      "injuries": []
+    },
+    "Michael Mmoh": {
+      "player_name": "Michael Mmoh",
+      "injuries": []
+    },
+    "Luis Patino": {
+      "player_name": "Luis Patino",
+      "injuries": []
+    },
+    "Adam Hornby": {
+      "player_name": "Adam Hornby",
+      "injuries": []
+    },
+    "Manuel Castellanos": {
+      "player_name": "Manuel Castellanos",
+      "injuries": []
+    },
+    "Pedro Sousa": {
+      "player_name": "Pedro Sousa",
+      "injuries": []
+    },
+    "Tomislav Ternar": {
+      "player_name": "Tomislav Ternar",
+      "injuries": []
+    },
+    "Isak Arvidsson": {
+      "player_name": "Isak Arvidsson",
+      "injuries": []
+    },
+    "Daniel Windahl": {
+      "player_name": "Daniel Windahl",
+      "injuries": []
+    },
+    "Anis Ghorbel": {
+      "player_name": "Anis Ghorbel",
+      "injuries": []
+    },
+    "Altug Celikbilek": {
+      "player_name": "Altug Celikbilek",
+      "injuries": []
+    },
+    "George Tsivadze": {
+      "player_name": "George Tsivadze",
+      "injuries": []
+    },
+    "Giorgi Javakhishvili": {
+      "player_name": "Giorgi Javakhishvili",
+      "injuries": []
+    },
+    "Irakli Metreveli": {
+      "player_name": "Irakli Metreveli",
+      "injuries": []
+    },
+    "Bruno Britez": {
+      "player_name": "Bruno Britez",
+      "injuries": []
+    },
+    "Ayed Zatar": {
+      "player_name": "Ayed Zatar",
+      "injuries": []
+    },
+    "Francisco Yim Kim": {
+      "player_name": "Francisco Yim Kim",
+      "injuries": []
+    },
+    "Hernando Jose Escurra Isnardi": {
+      "player_name": "Hernando Jose Escurra Isnardi",
+      "injuries": []
+    },
+    "Abdulrahman Alawadhi": {
+      "player_name": "Abdulrahman Alawadhi",
+      "injuries": []
+    },
+    "Abdulhamid Mubarak": {
+      "player_name": "Abdulhamid Mubarak",
+      "injuries": []
+    },
+    "Tom Diederich": {
+      "player_name": "Tom Diederich",
+      "injuries": []
+    },
+    "Puriwat Chatpatcharoen": {
+      "player_name": "Puriwat Chatpatcharoen",
+      "injuries": []
+    },
+    "Syed Mohd Agil Syed Naguib": {
+      "player_name": "Syed Mohd Agil Syed Naguib",
+      "injuries": []
+    },
+    "Hao Sheng Koay": {
+      "player_name": "Hao Sheng Koay",
+      "injuries": []
+    },
+    "Minhtuan Pham": {
+      "player_name": "Minhtuan Pham",
+      "injuries": []
+    },
+    "Courtney John Lock": {
+      "player_name": "Courtney John Lock",
+      "injuries": []
+    },
+    "Eero Vasa": {
+      "player_name": "Eero Vasa",
+      "injuries": []
+    },
+    "Mackenzie Mcdonald": {
+      "player_name": "Mackenzie Mcdonald",
+      "injuries": [
+        {
+          "injury_name": "right hamstring injury / surgery",
+          "body_location": "right hamstring",
+          "body_half": "bottom",
+          "joint_injury": false,
+          "acute_or_chronic": "chronic",
+          "injury_date": "2019-06",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/mackenzie-mcdonald-atp-awards-2021-comeback-player-of-the-year"
+          ]
+        }
+      ]
+    },
+    "Amine Ahouda": {
+      "player_name": "Amine Ahouda",
+      "injuries": []
+    },
+    "Reda El Amrani": {
+      "player_name": "Reda El Amrani",
+      "injuries": []
+    },
+    "Pedro Cachin": {
+      "player_name": "Pedro Cachin",
+      "injuries": [
+        {
+          "injury_name": "chronic ankle pain",
+          "body_location": "ankle",
+          "body_half": "bottom",
+          "joint_injury": true,
+          "acute_or_chronic": "chronic",
+          "injury_date": "2021-09",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/cachin-retirement-2025-tribute",
+            "https://www.atptour.com/es/news/cachin-anuncio-retiro-noviembre-2025"
+          ]
+        }
+      ]
+    },
+    "Michael Linzer": {
+      "player_name": "Michael Linzer",
+      "injuries": []
+    },
+    "Aldin Setkic": {
+      "player_name": "Aldin Setkic",
+      "injuries": []
+    },
+    "Cedrik Marcel Stebe": {
+      "player_name": "Cedrik Marcel Stebe",
+      "injuries": []
+    },
+    "Lorenzo Sonego": {
+      "player_name": "Lorenzo Sonego",
+      "injuries": []
+    },
+    "Salvatore Caruso": {
+      "player_name": "Salvatore Caruso",
+      "injuries": []
+    },
+    "Roberto Ortega Olmedo": {
+      "player_name": "Roberto Ortega Olmedo",
+      "injuries": []
+    },
+    "Gregoire Barrere": {
+      "player_name": "Gregoire Barrere",
+      "injuries": []
+    },
+    "Jordi Samper Montana": {
+      "player_name": "Jordi Samper Montana",
+      "injuries": []
+    },
+    "Jan Choinski": {
+      "player_name": "Jan Choinski",
+      "injuries": []
+    },
+    "Alexander Ward": {
+      "player_name": "Alexander Ward",
+      "injuries": []
+    },
+    "Fred Simonsson": {
+      "player_name": "Fred Simonsson",
+      "injuries": []
+    },
+    "Marvin Moeller": {
+      "player_name": "Marvin Moeller",
+      "injuries": []
+    },
+    "Roberto Quiroz": {
+      "player_name": "Roberto Quiroz",
+      "injuries": []
+    },
+    "Florin Mergea": {
+      "player_name": "Florin Mergea",
+      "injuries": []
+    },
+    "Hong Chung": {
+      "player_name": "Hong Chung",
+      "injuries": []
+    },
+    "Tadas Babelis": {
+      "player_name": "Tadas Babelis",
+      "injuries": []
+    },
+    "Dac Tien Nguyen": {
+      "player_name": "Dac Tien Nguyen",
+      "injuries": []
+    },
+    "Agustin Velotti": {
+      "player_name": "Agustin Velotti",
+      "injuries": []
+    },
+    "Johan Nikles": {
+      "player_name": "Johan Nikles",
+      "injuries": []
+    },
+    "Akira Santillan": {
+      "player_name": "Akira Santillan",
+      "injuries": []
+    },
+    "Enrique Lopez Perez": {
+      "player_name": "Enrique Lopez Perez",
+      "injuries": []
+    },
+    "Nino Serdarusic": {
+      "player_name": "Nino Serdarusic",
+      "injuries": []
+    },
+    "Austin Smith": {
+      "player_name": "Austin Smith",
+      "injuries": []
+    },
+    "Christian Harrison": {
+      "player_name": "Christian Harrison",
+      "injuries": []
+    },
+    "Andreas Bjerrehus": {
+      "player_name": "Andreas Bjerrehus",
+      "injuries": []
+    },
+    "Tomas Vaise": {
+      "player_name": "Tomas Vaise",
+      "injuries": []
+    },
+    "Sumit Nagal": {
+      "player_name": "Sumit Nagal",
+      "injuries": [
+        {
+          "injury_name": "hip surgery",
+          "body_location": "hip",
+          "body_half": "bottom",
+          "joint_injury": true,
+          "acute_or_chronic": "chronic",
+          "injury_date": "2023-05",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/nagal-challenger-2023-feature"
+          ]
+        },
+        {
+          "injury_name": "left oblique tear",
+          "body_location": "left oblique",
+          "body_half": "top",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2022-07",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/nagal-challenger-2023-feature"
+          ]
+        }
+      ]
+    },
+    "Artem Smirnov": {
+      "player_name": "Artem Smirnov",
+      "injuries": []
+    },
+    "Danylo Kalenichenko": {
+      "player_name": "Danylo Kalenichenko",
+      "injuries": []
+    },
+    "Jurabek Karimov": {
+      "player_name": "Jurabek Karimov",
+      "injuries": []
+    },
+    "Marin Draganja": {
+      "player_name": "Marin Draganja",
+      "injuries": []
+    },
+    "Yannick Maden": {
+      "player_name": "Yannick Maden",
+      "injuries": []
+    },
+    "Alex De Minaur": {
+      "player_name": "Alex De Minaur",
+      "injuries": [
+        {
+          "injury_name": "hip/adductor tear",
+          "body_location": "hip/adductor",
+          "body_half": "bottom",
+          "joint_injury": true,
+          "acute_or_chronic": "acute",
+          "injury_date": "2024-07-10",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/de-minaur-wimbledon-2024-withdrawal",
+            "https://www.atptour.com/en/news/de-minaur-us-open-2024-qf"
+          ]
+        }
+      ]
+    },
+    "Tomas Barrios Vera": {
+      "player_name": "Tomas Barrios Vera",
+      "injuries": []
+    },
+    "Vladimir Ivanov": {
+      "player_name": "Vladimir Ivanov",
+      "injuries": []
+    },
+    "Alberto Lim": {
+      "player_name": "Alberto Lim",
+      "injuries": []
+    },
+    "Jirat Navasirisomboon": {
+      "player_name": "Jirat Navasirisomboon",
+      "injuries": []
+    },
+    "Soren Hess Olesen": {
+      "player_name": "Soren Hess Olesen",
+      "injuries": []
+    },
+    "Manuel Sanchez": {
+      "player_name": "Manuel Sanchez",
+      "injuries": []
+    },
+    "Thomas Oger": {
+      "player_name": "Thomas Oger",
+      "injuries": []
+    },
+    "Simen Sunde Bratholm": {
+      "player_name": "Simen Sunde Bratholm",
+      "injuries": []
+    },
+    "Hamid Reza Nadaf": {
+      "player_name": "Hamid Reza Nadaf",
+      "injuries": []
+    },
+    "Hong Kit Jack Wong": {
+      "player_name": "Hong Kit Jack Wong",
+      "injuries": []
+    },
+    "Karan Rastogi": {
+      "player_name": "Karan Rastogi",
+      "injuries": []
+    },
+    "Yibing Wu": {
+      "player_name": "Yibing Wu",
+      "injuries": [
+        {
+          "injury_name": "left foot fracture / foot pain",
+          "body_location": "left foot",
+          "body_half": "bottom",
+          "joint_injury": false,
+          "acute_or_chronic": "chronic",
+          "injury_date": "2023-09",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/wu-yibing-hangzhou-2024-feature",
+            "https://www.atptour.com/en/news/wu-yibing-hangzhou-2024-feature/"
+          ]
+        },
+        {
+          "injury_name": "multiple prior injuries",
+          "body_location": "elbow, lower back, shoulder, wrist",
+          "body_half": "unknown",
+          "joint_injury": true,
+          "acute_or_chronic": "chronic",
+          "injury_date": "2021",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/wu-yibing-top-100",
+            "https://www.atptour.com/es/news/wu-yibing-hangzhou-2024-feature"
+          ]
+        }
+      ]
+    },
+    "Dmitry Popko": {
+      "player_name": "Dmitry Popko",
+      "injuries": []
+    },
+    "Prajnesh Gunneswaran": {
+      "player_name": "Prajnesh Gunneswaran",
+      "injuries": []
+    },
+    "August Holmgren": {
+      "player_name": "August Holmgren",
+      "injuries": []
+    },
+    "Gianluigi Quinzi": {
+      "player_name": "Gianluigi Quinzi",
+      "injuries": []
+    },
+    "Yannick Hanfmann": {
+      "player_name": "Yannick Hanfmann",
+      "injuries": []
+    },
+    "Benjamin Bonzi": {
+      "player_name": "Benjamin Bonzi",
+      "injuries": []
+    },
+    "Stefano Napolitano": {
+      "player_name": "Stefano Napolitano",
+      "injuries": []
+    },
+    "Daniel Altmaier": {
+      "player_name": "Daniel Altmaier",
+      "injuries": [
+        {
+          "injury_name": "thigh strain",
+          "body_location": "thigh",
+          "body_half": "bottom",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2025-08-30",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://www.espn.com/tennis/story/_/id/46117265/tennis-australia-alex-de-minaur-storms-us-open-fourth-round",
+            "https://www.espn.com/tennis/story/_/id/46116340/flavio-cobolli-daniel-altmaier-kamil-majchrzak-retire-2025-us-open-due-injury"
+          ]
+        }
+      ]
+    },
+    "Cameron Norrie": {
+      "player_name": "Cameron Norrie",
+      "injuries": [
+        {
+          "injury_name": "right wrist injury",
+          "body_location": "right wrist",
+          "body_half": "top",
+          "joint_injury": true,
+          "acute_or_chronic": "acute",
+          "injury_date": "2024-01-11",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.tennis.com/news/articles/cameron-norrie-withdraws-from-auckland-classic-with-wrist-injury-shelton-through-to-semifinals"
+          ]
+        },
+        {
+          "injury_name": "forearm injury",
+          "body_location": "forearm",
+          "body_half": "top",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2024-08-16",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/norrie-withdrawal-us-open-2024-friday"
+          ]
+        }
+      ]
+    },
+    "Sebastian Ofner": {
+      "player_name": "Sebastian Ofner",
+      "injuries": []
+    },
+    "Attila Balazs": {
+      "player_name": "Attila Balazs",
+      "injuries": [
+        {
+          "injury_name": "left heel injury",
+          "body_location": "left heel",
+          "body_half": "bottom",
+          "joint_injury": false,
+          "acute_or_chronic": "unknown",
+          "injury_date": "2021-2022",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/players/nlwiki/BD80/bio"
+          ]
+        }
+      ]
+    },
+    "Gleb Sakharov": {
+      "player_name": "Gleb Sakharov",
+      "injuries": []
+    }
+  }
+}

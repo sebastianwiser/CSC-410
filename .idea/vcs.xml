@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CSC-410" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tennis_atp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tennis_odds" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tennis_odds/CSC-410" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tennis_sql" vcs="Git" />
+  </component>
+</project>

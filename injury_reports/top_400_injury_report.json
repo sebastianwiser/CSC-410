@@ -1,0 +1,513 @@
+{
+  "generated_at": "2026-04-18T18:12:28",
+  "model": "gpt-5.4-mini",
+  "selection_mode": "unique-match-players",
+  "ranking_date": null,
+  "player_count": 100,
+  "player_start_index": 301,
+  "player_end_index": 400,
+  "batch_target_end_index": 400,
+  "batch_complete": true,
+  "total_players_in_scope": 1261,
+  "input_match_files": [
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2014.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2015.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2016.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2017.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2018.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2019.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2020.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2021.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2022.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2023.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2024.csv"
+  ],
+  "source_policy": {
+    "primary_allowed_domains": [
+      "apnews.com",
+      "atptour.com",
+      "ausopen.com",
+      "bbc.com",
+      "espn.com",
+      "olympics.com",
+      "reuters.com",
+      "rolandgarros.com",
+      "tennis.com",
+      "tennismajors.com",
+      "usopen.org",
+      "wimbledon.com"
+    ],
+    "expanded_allowed_domains": [
+      "apnews.com",
+      "atptour.com",
+      "ausopen.com",
+      "bbc.com",
+      "espn.com",
+      "olympics.com",
+      "reuters.com",
+      "rolandgarros.com",
+      "tennis.com",
+      "tennismajors.com",
+      "usopen.org",
+      "wimbledon.com",
+      "cbc.ca",
+      "sportskeeda.com",
+      "tennisworldusa.org",
+      "thesportsrush.com",
+      "yahoo.com"
+    ],
+    "user_location": {
+      "type": "approximate",
+      "country": "US",
+      "timezone": "America/New_York"
+    }
+  },
+  "players": {
+    "Gonzalo Escobar": {
+      "player_name": "Gonzalo Escobar",
+      "injuries": []
+    },
+    "Tsung Hua Yang": {
+      "player_name": "Tsung Hua Yang",
+      "injuries": []
+    },
+    "Ti Chen": {
+      "player_name": "Ti Chen",
+      "injuries": []
+    },
+    "Hsien Yin Peng": {
+      "player_name": "Hsien Yin Peng",
+      "injuries": []
+    },
+    "Karen Khachanov": {
+      "player_name": "Karen Khachanov",
+      "injuries": [
+        {
+          "injury_name": "stress fracture and partial fracture in sacrum S1 bone",
+          "body_location": "sacrum (S1)",
+          "body_half": "bottom",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2023-06-23",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/khachanov-wimbledon-2023-withdrawal",
+            "https://www.atptour.com/en/news/khachanov-cincinnati-2023-feature"
+          ]
+        }
+      ]
+    },
+    "Janez Semrajc": {
+      "player_name": "Janez Semrajc",
+      "injuries": []
+    },
+    "Mike Urbanija": {
+      "player_name": "Mike Urbanija",
+      "injuries": []
+    },
+    "Martins Podzus": {
+      "player_name": "Martins Podzus",
+      "injuries": []
+    },
+    "Andis Juska": {
+      "player_name": "Andis Juska",
+      "injuries": []
+    },
+    "Janis Podzus": {
+      "player_name": "Janis Podzus",
+      "injuries": []
+    },
+    "Arturs Lazdins": {
+      "player_name": "Arturs Lazdins",
+      "injuries": []
+    },
+    "Russell Moseley": {
+      "player_name": "Russell Moseley",
+      "injuries": []
+    },
+    "Daniel Glancy": {
+      "player_name": "Daniel Glancy",
+      "injuries": []
+    },
+    "Federico Zeballos": {
+      "player_name": "Federico Zeballos",
+      "injuries": []
+    },
+    "Alexandar Lazov": {
+      "player_name": "Alexandar Lazov",
+      "injuries": []
+    },
+    "Micke Kontinen": {
+      "player_name": "Micke Kontinen",
+      "injuries": []
+    },
+    "Herkko Pollanen": {
+      "player_name": "Herkko Pollanen",
+      "injuries": []
+    },
+    "Luciano Ramazzini": {
+      "player_name": "Luciano Ramazzini",
+      "injuries": []
+    },
+    "David Agung Susanto": {
+      "player_name": "David Agung Susanto",
+      "injuries": []
+    },
+    "Elbert Sie": {
+      "player_name": "Elbert Sie",
+      "injuries": []
+    },
+    "Abdulhameed Alshatti": {
+      "player_name": "Abdulhameed Alshatti",
+      "injuries": []
+    },
+    "Yassine Idmbarek": {
+      "player_name": "Yassine Idmbarek",
+      "injuries": []
+    },
+    "Ugo Nastasi": {
+      "player_name": "Ugo Nastasi",
+      "injuries": []
+    },
+    "Christophe Tholl": {
+      "player_name": "Christophe Tholl",
+      "injuries": []
+    },
+    "Sherif Sabry": {
+      "player_name": "Sherif Sabry",
+      "injuries": []
+    },
+    "Joachim Bjerke": {
+      "player_name": "Joachim Bjerke",
+      "injuries": []
+    },
+    "Viktor Durasovic": {
+      "player_name": "Viktor Durasovic",
+      "injuries": []
+    },
+    "Diego Galeano": {
+      "player_name": "Diego Galeano",
+      "injuries": []
+    },
+    "Sebastian Quiros": {
+      "player_name": "Sebastian Quiros",
+      "injuries": []
+    },
+    "Salvador Andres Bolanos": {
+      "player_name": "Salvador Andres Bolanos",
+      "injuries": []
+    },
+    "Dineshkanthan Thangarajah": {
+      "player_name": "Dineshkanthan Thangarajah",
+      "injuries": []
+    },
+    "Ruben Bemelmans": {
+      "player_name": "Ruben Bemelmans",
+      "injuries": []
+    },
+    "Ilija Bozoljac": {
+      "player_name": "Ilija Bozoljac",
+      "injuries": []
+    },
+    "Michael Lammer": {
+      "player_name": "Michael Lammer",
+      "injuries": []
+    },
+    "Marco Chiudinelli": {
+      "player_name": "Marco Chiudinelli",
+      "injuries": []
+    },
+    "Marsel Ilhan": {
+      "player_name": "Marsel Ilhan",
+      "injuries": []
+    },
+    "Andres Artunedo Martinavarro": {
+      "player_name": "Andres Artunedo Martinavarro",
+      "injuries": []
+    },
+    "Ruben Ramirez Hidalgo": {
+      "player_name": "Ruben Ramirez Hidalgo",
+      "injuries": []
+    },
+    "Pedja Krstin": {
+      "player_name": "Pedja Krstin",
+      "injuries": []
+    },
+    "Facundo Arguello": {
+      "player_name": "Facundo Arguello",
+      "injuries": []
+    },
+    "Quang Huy Ngo": {
+      "player_name": "Quang Huy Ngo",
+      "injuries": []
+    },
+    "Mahammad Abid": {
+      "player_name": "Mahammad Abid",
+      "injuries": []
+    },
+    "Yasir Khan": {
+      "player_name": "Yasir Khan",
+      "injuries": []
+    },
+    "Guilherme Clezar": {
+      "player_name": "Guilherme Clezar",
+      "injuries": []
+    },
+    "John Patrick Smith": {
+      "player_name": "John Patrick Smith",
+      "injuries": []
+    },
+    "Daniel Kosakowski": {
+      "player_name": "Daniel Kosakowski",
+      "injuries": []
+    },
+    "Daniel Munoz de la Nava": {
+      "player_name": "Daniel Munoz de la Nava",
+      "injuries": []
+    },
+    "Robert Farah": {
+      "player_name": "Robert Farah",
+      "injuries": [
+        {
+          "injury_name": "shoulder issue",
+          "body_location": "shoulder",
+          "body_half": "top",
+          "joint_injury": true,
+          "acute_or_chronic": "acute",
+          "injury_date": "2022-09",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/cabal-farah-retirement-feature-2023"
+          ]
+        }
+      ]
+    },
+    "Sanam Singh": {
+      "player_name": "Sanam Singh",
+      "injuries": []
+    },
+    "Grega Zemlja": {
+      "player_name": "Grega Zemlja",
+      "injuries": []
+    },
+    "Gerald Melzer": {
+      "player_name": "Gerald Melzer",
+      "injuries": []
+    },
+    "Andres Bucaro": {
+      "player_name": "Andres Bucaro",
+      "injuries": []
+    },
+    "Gustavo Ramirez": {
+      "player_name": "Gustavo Ramirez",
+      "injuries": []
+    },
+    "Theodoros Angelinos": {
+      "player_name": "Theodoros Angelinos",
+      "injuries": []
+    },
+    "Dinko Halachev": {
+      "player_name": "Dinko Halachev",
+      "injuries": []
+    },
+    "Charalampos Kapogiannis": {
+      "player_name": "Charalampos Kapogiannis",
+      "injuries": []
+    },
+    "Karim Mohamed Maamoun": {
+      "player_name": "Karim Mohamed Maamoun",
+      "injuries": []
+    },
+    "Sam Barry": {
+      "player_name": "Sam Barry",
+      "injuries": []
+    },
+    "Constantinos Ioannides": {
+      "player_name": "Constantinos Ioannides",
+      "injuries": []
+    },
+    "Sharmal Dissanayake": {
+      "player_name": "Sharmal Dissanayake",
+      "injuries": []
+    },
+    "Mike Scheidweiler": {
+      "player_name": "Mike Scheidweiler",
+      "injuries": []
+    },
+    "Juho Paukku": {
+      "player_name": "Juho Paukku",
+      "injuries": []
+    },
+    "Uladzimir Ignatik": {
+      "player_name": "Uladzimir Ignatik",
+      "injuries": []
+    },
+    "Cesar Ramirez": {
+      "player_name": "Cesar Ramirez",
+      "injuries": []
+    },
+    "Johnny Arcilla": {
+      "player_name": "Johnny Arcilla",
+      "injuries": []
+    },
+    "Jean Andersen": {
+      "player_name": "Jean Andersen",
+      "injuries": []
+    },
+    "Ruan Roelofse": {
+      "player_name": "Ruan Roelofse",
+      "injuries": []
+    },
+    "Ali Ghareeb": {
+      "player_name": "Ali Ghareeb",
+      "injuries": []
+    },
+    "Yasutaka Uchiyama": {
+      "player_name": "Yasutaka Uchiyama",
+      "injuries": []
+    },
+    "Andreas Beck": {
+      "player_name": "Andreas Beck",
+      "injuries": []
+    },
+    "Matteo Viola": {
+      "player_name": "Matteo Viola",
+      "injuries": []
+    },
+    "Marc Lopez": {
+      "player_name": "Marc Lopez",
+      "injuries": []
+    },
+    "Patrick Ciorcila": {
+      "player_name": "Patrick Ciorcila",
+      "injuries": []
+    },
+    "Nikoloz Basilashvili": {
+      "player_name": "Nikoloz Basilashvili",
+      "injuries": []
+    },
+    "Marco Cecchinato": {
+      "player_name": "Marco Cecchinato",
+      "injuries": []
+    },
+    "Stefano Travaglia": {
+      "player_name": "Stefano Travaglia",
+      "injuries": []
+    },
+    "Alessandro Giannessi": {
+      "player_name": "Alessandro Giannessi",
+      "injuries": []
+    },
+    "Martin Vaisse": {
+      "player_name": "Martin Vaisse",
+      "injuries": []
+    },
+    "Laurent Lokoli": {
+      "player_name": "Laurent Lokoli",
+      "injuries": []
+    },
+    "Andrea Arnaboldi": {
+      "player_name": "Andrea Arnaboldi",
+      "injuries": []
+    },
+    "Miloslav Mecir Jr": {
+      "player_name": "Miloslav Mecir Jr",
+      "injuries": []
+    },
+    "Daniel Cox": {
+      "player_name": "Daniel Cox",
+      "injuries": []
+    },
+    "Kimmer Coppejans": {
+      "player_name": "Kimmer Coppejans",
+      "injuries": []
+    },
+    "Chris Guccione": {
+      "player_name": "Chris Guccione",
+      "injuries": []
+    },
+    "Konstantin Kravchuk": {
+      "player_name": "Konstantin Kravchuk",
+      "injuries": []
+    },
+    "Daniel Smethurst": {
+      "player_name": "Daniel Smethurst",
+      "injuries": []
+    },
+    "Markus Eriksson": {
+      "player_name": "Markus Eriksson",
+      "injuries": []
+    },
+    "Mitchell Krueger": {
+      "player_name": "Mitchell Krueger",
+      "injuries": []
+    },
+    "Clay Thompson": {
+      "player_name": "Clay Thompson",
+      "injuries": []
+    },
+    "Nicolas Barrientos": {
+      "player_name": "Nicolas Barrientos",
+      "injuries": []
+    },
+    "Juan Ignacio Londero": {
+      "player_name": "Juan Ignacio Londero",
+      "injuries": []
+    },
+    "Kevin King": {
+      "player_name": "Kevin King",
+      "injuries": []
+    },
+    "Eduardo Struvay": {
+      "player_name": "Eduardo Struvay",
+      "injuries": []
+    },
+    "Nathan Pasha": {
+      "player_name": "Nathan Pasha",
+      "injuries": []
+    },
+    "Steven Diez": {
+      "player_name": "Steven Diez",
+      "injuries": [
+        {
+          "injury_name": "physical issue",
+          "body_location": "unknown",
+          "body_half": "unknown",
+          "joint_injury": false,
+          "acute_or_chronic": "unknown",
+          "injury_date": "2024-01-03",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/canada-greece-united-cup-2024-wednesday"
+          ]
+        }
+      ]
+    },
+    "Gianni Mina": {
+      "player_name": "Gianni Mina",
+      "injuries": []
+    },
+    "Fabiano De Paula": {
+      "player_name": "Fabiano De Paula",
+      "injuries": []
+    },
+    "Viktor Galovic": {
+      "player_name": "Viktor Galovic",
+      "injuries": []
+    },
+    "Jared Donaldson": {
+      "player_name": "Jared Donaldson",
+      "injuries": []
+    },
+    "Frances Tiafoe": {
+      "player_name": "Frances Tiafoe",
+      "injuries": []
+    }
+  }
+}

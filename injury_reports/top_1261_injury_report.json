@@ -1,0 +1,341 @@
+{
+  "generated_at": "2026-04-18T19:42:52",
+  "model": "gpt-5.4-mini",
+  "selection_mode": "unique-match-players",
+  "ranking_date": null,
+  "player_count": 61,
+  "player_start_index": 1201,
+  "player_end_index": 1261,
+  "batch_target_end_index": 1261,
+  "batch_complete": true,
+  "total_players_in_scope": 1261,
+  "input_match_files": [
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2014.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2015.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2016.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2017.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2018.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2019.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2020.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2021.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2022.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2023.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2024.csv"
+  ],
+  "source_policy": {
+    "primary_allowed_domains": [
+      "apnews.com",
+      "atptour.com",
+      "ausopen.com",
+      "bbc.com",
+      "espn.com",
+      "olympics.com",
+      "reuters.com",
+      "rolandgarros.com",
+      "tennis.com",
+      "tennismajors.com",
+      "usopen.org",
+      "wimbledon.com"
+    ],
+    "expanded_allowed_domains": [
+      "apnews.com",
+      "atptour.com",
+      "ausopen.com",
+      "bbc.com",
+      "espn.com",
+      "olympics.com",
+      "reuters.com",
+      "rolandgarros.com",
+      "tennis.com",
+      "tennismajors.com",
+      "usopen.org",
+      "wimbledon.com",
+      "cbc.ca",
+      "sportskeeda.com",
+      "tennisworldusa.org",
+      "thesportsrush.com",
+      "yahoo.com"
+    ],
+    "user_location": {
+      "type": "approximate",
+      "country": "US",
+      "timezone": "America/New_York"
+    }
+  },
+  "players": {
+    "Federico Agustin Gomez": {
+      "player_name": "Federico Agustin Gomez",
+      "injuries": []
+    },
+    "Justin Engel": {
+      "player_name": "Justin Engel",
+      "injuries": []
+    },
+    "Nishesh Basavareddy": {
+      "player_name": "Nishesh Basavareddy",
+      "injuries": []
+    },
+    "Lukas Pokorny": {
+      "player_name": "Lukas Pokorny",
+      "injuries": []
+    },
+    "Martyn Pawelski": {
+      "player_name": "Martyn Pawelski",
+      "injuries": []
+    },
+    "Demetris Azoides": {
+      "player_name": "Demetris Azoides",
+      "injuries": []
+    },
+    "Remy Bertola": {
+      "player_name": "Remy Bertola",
+      "injuries": []
+    },
+    "Petr Nesterov": {
+      "player_name": "Petr Nesterov",
+      "injuries": []
+    },
+    "Adria Soriano Barrera": {
+      "player_name": "Adria Soriano Barrera",
+      "injuries": []
+    },
+    "Andres Andrade": {
+      "player_name": "Andres Andrade",
+      "injuries": []
+    },
+    "Ioannis Xilas": {
+      "player_name": "Ioannis Xilas",
+      "injuries": []
+    },
+    "Niki Kaliyanda Poonacha": {
+      "player_name": "Niki Kaliyanda Poonacha",
+      "injuries": []
+    },
+    "Iliyan Radulov": {
+      "player_name": "Iliyan Radulov",
+      "injuries": []
+    },
+    "Jack Loutit": {
+      "player_name": "Jack Loutit",
+      "injuries": []
+    },
+    "Cezar Cretu": {
+      "player_name": "Cezar Cretu",
+      "injuries": []
+    },
+    "Thomas Yaka Kofi Setodji": {
+      "player_name": "Thomas Yaka Kofi Setodji",
+      "injuries": []
+    },
+    "Liova Ayite Ajavon": {
+      "player_name": "Liova Ayite Ajavon",
+      "injuries": []
+    },
+    "Boris Arias": {
+      "player_name": "Boris Arias",
+      "injuries": []
+    },
+    "Juan Carlos Fuentes Vasquez": {
+      "player_name": "Juan Carlos Fuentes Vasquez",
+      "injuries": []
+    },
+    "Benedict Badza": {
+      "player_name": "Benedict Badza",
+      "injuries": []
+    },
+    "Oliver Ojakaar": {
+      "player_name": "Oliver Ojakaar",
+      "injuries": []
+    },
+    "Sina Moghimi": {
+      "player_name": "Sina Moghimi",
+      "injuries": []
+    },
+    "Komlavi Loglo": {
+      "player_name": "Komlavi Loglo",
+      "injuries": []
+    },
+    "Chak Lam Coleman Wong": {
+      "player_name": "Chak Lam Coleman Wong",
+      "injuries": []
+    },
+    "James Mccabe": {
+      "player_name": "James Mccabe",
+      "injuries": []
+    },
+    "Antoine Escoffier": {
+      "player_name": "Antoine Escoffier",
+      "injuries": []
+    },
+    "Adam Neff": {
+      "player_name": "Adam Neff",
+      "injuries": []
+    },
+    "Darwin Blanch": {
+      "player_name": "Darwin Blanch",
+      "injuries": []
+    },
+    "Jaime Faria": {
+      "player_name": "Jaime Faria",
+      "injuries": []
+    },
+    "Javier Barranco Cosano": {
+      "player_name": "Javier Barranco Cosano",
+      "injuries": []
+    },
+    "Nikolas Sanchez Izquierdo": {
+      "player_name": "Nikolas Sanchez Izquierdo",
+      "injuries": []
+    },
+    "Sebastian Fanselow": {
+      "player_name": "Sebastian Fanselow",
+      "injuries": []
+    },
+    "Charles Broom": {
+      "player_name": "Charles Broom",
+      "injuries": []
+    },
+    "Henry Searle": {
+      "player_name": "Henry Searle",
+      "injuries": []
+    },
+    "Joel Schwaerzler": {
+      "player_name": "Joel Schwaerzler",
+      "injuries": []
+    },
+    "Luka Mikrut": {
+      "player_name": "Luka Mikrut",
+      "injuries": []
+    },
+    "Francisco Cabral": {
+      "player_name": "Francisco Cabral",
+      "injuries": []
+    },
+    "Matthew Forbes": {
+      "player_name": "Matthew Forbes",
+      "injuries": []
+    },
+    "Kyrian Jacquet": {
+      "player_name": "Kyrian Jacquet",
+      "injuries": [
+        {
+          "injury_name": "hamstring tear",
+          "body_location": "hamstring",
+          "body_half": "bottom",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2024",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "6-12 weeks",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/jacquet-challenger-2025-feature"
+          ]
+        }
+      ]
+    },
+    "Raphael Collignon": {
+      "player_name": "Raphael Collignon",
+      "injuries": [
+        {
+          "injury_name": "physical distress / retirement",
+          "body_location": "unknown",
+          "body_half": "unknown",
+          "joint_injury": false,
+          "acute_or_chronic": "unknown",
+          "injury_date": "2026-01-20",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://www.tennismajors.com/australian-open-news/musetti-celebrates-top-5-debut-with-hard-fought-win-as-collignon-retires-in-distress-842072.html"
+          ]
+        }
+      ]
+    },
+    "Branko Djuric": {
+      "player_name": "Branko Djuric",
+      "injuries": []
+    },
+    "Theo Papamalamis": {
+      "player_name": "Theo Papamalamis",
+      "injuries": []
+    },
+    "Orel Kimhi": {
+      "player_name": "Orel Kimhi",
+      "injuries": []
+    },
+    "Faris Zakaryia": {
+      "player_name": "Faris Zakaryia",
+      "injuries": []
+    },
+    "Philip Hjorth": {
+      "player_name": "Philip Hjorth",
+      "injuries": []
+    },
+    "Min Kyu Song": {
+      "player_name": "Min Kyu Song",
+      "injuries": []
+    },
+    "Siddharth Vishwakarma": {
+      "player_name": "Siddharth Vishwakarma",
+      "injuries": []
+    },
+    "Luca Preda": {
+      "player_name": "Luca Preda",
+      "injuries": []
+    },
+    "Davis Rolis": {
+      "player_name": "Davis Rolis",
+      "injuries": []
+    },
+    "Maxim Shin": {
+      "player_name": "Maxim Shin",
+      "injuries": []
+    },
+    "Yousaf Khalil": {
+      "player_name": "Yousaf Khalil",
+      "injuries": []
+    },
+    "Jack Cheng": {
+      "player_name": "Jack Cheng",
+      "injuries": []
+    },
+    "Marcos Lee Chan Baratau": {
+      "player_name": "Marcos Lee Chan Baratau",
+      "injuries": []
+    },
+    "Maximus Jones": {
+      "player_name": "Maximus Jones",
+      "injuries": []
+    },
+    "Thanapet Chanta": {
+      "player_name": "Thanapet Chanta",
+      "injuries": []
+    },
+    "Hamza Karmoussi": {
+      "player_name": "Hamza Karmoussi",
+      "injuries": []
+    },
+    "Gillian Osmont": {
+      "player_name": "Gillian Osmont",
+      "injuries": []
+    },
+    "Heve Kelley": {
+      "player_name": "Heve Kelley",
+      "injuries": []
+    },
+    "Matavao Fanguna": {
+      "player_name": "Matavao Fanguna",
+      "injuries": []
+    },
+    "Kwok Shun Dasson Chan": {
+      "player_name": "Kwok Shun Dasson Chan",
+      "injuries": []
+    },
+    "Ilya Snitari": {
+      "player_name": "Ilya Snitari",
+      "injuries": []
+    }
+  }
+}
