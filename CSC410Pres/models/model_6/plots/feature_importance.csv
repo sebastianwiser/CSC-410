@@ -1,0 +1,144 @@
+feature,importance
+num__elo_diff,0.0802683
+num__elo_surf_diff,0.038724225
+num__rank_ratio,0.029234605
+num__pts_diff,0.018462775
+num__log_rank_diff,0.017338198
+cat__best_of_3,0.012270067
+cat__best_of_5,0.011778851
+num__second_serve_win_pct_diff,0.011596474
+num__rank_diff,0.011528854
+num__days_rest_diff,0.011497083
+cat__series_grand slam,0.010851308
+cat__style_pair_Aggressive Baseliner vs All-Court Player,0.01027693
+cat__p2_style_Serve-and-Volleyer,0.010093165
+cat__style_pair_Aggressive Baseliner vs Serve-and-Volleyer,0.00973564
+cat__style_pair_All-Court Player vs Counterpuncher,0.0095681725
+cat__surface_grass,0.009549733
+cat__style_surface_pair_Aggressive Baseliner vs Counterpuncher_hard,0.009506398
+cat__style_surface_pair_Aggressive Baseliner vs All-Court Player_clay,0.009504173
+num__surf_form_diff,0.009331811
+cat__p1_style_Serve-and-Volleyer,0.009250807
+cat__style_matchup_All-Court Player vs Aggressive Baseliner,0.009148424
+cat__series_masters 1000,0.009057796
+cat__round_semifinals,0.009049474
+cat__round_3rd round,0.0090179695
+num__experience_diff,0.008935318
+cat__p1_style_All-Court Player,0.008914594
+cat__p2_style_All-Court Player,0.008898414
+cat__style_matchup_Aggressive Baseliner vs Serve-and-Volleyer,0.008888141
+cat__p1_style_Counterpuncher,0.008885418
+cat__style_pair_Aggressive Baseliner vs Counterpuncher,0.008834668
+num__serve_dominance_diff,0.008827466
+cat__style_surface_pair_Aggressive Baseliner vs Serve-and-Volleyer_hard,0.008753697
+cat__style_matchup_Aggressive Baseliner vs All-Court Player,0.008707303
+num__form_short_diff,0.008692127
+cat__style_pair_Aggressive Baseliner vs Aggressive Baseliner,0.008640367
+cat__p2_style_Counterpuncher,0.008624758
+cat__court_outdoor,0.008602214
+cat__p1_style_Unknown,0.008600483
+cat__court_indoor,0.00857838
+cat__style_matchup_Counterpuncher vs Counterpuncher,0.008549391
+cat__style_surface_pair_Aggressive Baseliner vs Unknown_hard,0.008491781
+num__surface_specialist_diff,0.008429213
+cat__style_matchup_Unknown vs Aggressive Baseliner,0.008409475
+cat__style_surface_pair_Aggressive Baseliner vs Aggressive Baseliner_hard,0.008401775
+cat__surface_clay,0.008333859
+cat__style_matchup_Aggressive Baseliner vs Counterpuncher,0.008320356
+num__form_trend_diff,0.008311018
+cat__style_matchup_Counterpuncher vs All-Court Player,0.00831047
+cat__p2_style_Unknown,0.008290133
+cat__series_atp500,0.008260328
+cat__style_surface_pair_All-Court Player vs Counterpuncher_hard,0.0082539385
+cat__style_pair_Counterpuncher vs Unknown,0.008216222
+cat__round_quarterfinals,0.008181495
+cat__style_matchup_All-Court Player vs Counterpuncher,0.008126113
+cat__style_matchup_Aggressive Baseliner vs Unknown,0.008122973
+num__h2h_n,0.008111379
+cat__round_1st round,0.00805977
+cat__style_surface_pair_Aggressive Baseliner vs All-Court Player_hard,0.008033165
+num__form_long_diff,0.008016157
+num__first_serve_pct_diff,0.007998341
+num__same_style,0.007978324
+cat__style_matchup_Counterpuncher vs Aggressive Baseliner,0.007960656
+cat__round_2nd round,0.007944093
+cat__style_pair_All-Court Player vs Serve-and-Volleyer,0.007935475
+cat__style_matchup_Aggressive Baseliner vs Aggressive Baseliner,0.007888625
+cat__series_atp250,0.007846669
+cat__style_surface_pair_Aggressive Baseliner vs Counterpuncher_clay,0.00782225
+num__first_serve_win_pct_diff,0.0077689146
+num__h2h_rate,0.0077621504
+cat__style_pair_Aggressive Baseliner vs Unknown,0.00775319
+cat__p1_style_Aggressive Baseliner,0.0076009296
+cat__style_surface_pair_All-Court Player vs All-Court Player_hard,0.0075093447
+cat__style_matchup_All-Court Player vs All-Court Player,0.0074229403
+cat__style_surface_pair_All-Court Player vs All-Court Player_clay,0.00741073
+cat__style_pair_All-Court Player vs Unknown,0.007400368
+cat__style_surface_pair_All-Court Player vs Counterpuncher_grass,0.007378426
+cat__style_surface_pair_All-Court Player vs All-Court Player_grass,0.007373205
+cat__p2_style_Aggressive Baseliner,0.007327055
+cat__style_surface_pair_Aggressive Baseliner vs All-Court Player_grass,0.007118482
+cat__style_surface_pair_Counterpuncher vs Serve-and-Volleyer_hard,0.006966965
+cat__style_surface_pair_All-Court Player vs Unknown_hard,0.0069434624
+cat__style_surface_pair_All-Court Player vs Serve-and-Volleyer_hard,0.0067695477
+cat__surface_hard,0.0067499205
+cat__style_matchup_All-Court Player vs Serve-and-Volleyer,0.0067263525
+cat__style_surface_pair_Aggressive Baseliner vs Unknown_clay,0.006599112
+cat__round_the final,0.006557329
+cat__style_matchup_Serve-and-Volleyer vs All-Court Player,0.006510267
+cat__round_4th round,0.0064703287
+cat__style_surface_pair_Aggressive Baseliner vs Aggressive Baseliner_clay,0.006323891
+cat__style_surface_pair_All-Court Player vs Counterpuncher_clay,0.006279809
+cat__style_surface_pair_Counterpuncher vs Counterpuncher_hard,0.005958198
+cat__style_surface_pair_Counterpuncher vs Counterpuncher_clay,0.0058560544
+cat__style_pair_All-Court Player vs All-Court Player,0.005766587
+cat__style_surface_pair_Aggressive Baseliner vs Aggressive Baseliner_grass,0.0056634056
+cat__style_matchup_Unknown vs All-Court Player,0.0053751185
+cat__style_matchup_Serve-and-Volleyer vs Aggressive Baseliner,0.0052199266
+cat__style_pair_Counterpuncher vs Counterpuncher,0.0051489826
+cat__style_surface_pair_All-Court Player vs Unknown_clay,0.005060785
+cat__style_surface_pair_Aggressive Baseliner vs Serve-and-Volleyer_grass,0.0050431234
+cat__style_surface_pair_Aggressive Baseliner vs Counterpuncher_grass,0.0049717473
+cat__style_matchup_All-Court Player vs Unknown,0.0047105346
+cat__style_matchup_Counterpuncher vs Serve-and-Volleyer,0.004595295
+cat__style_surface_pair_Counterpuncher vs Unknown_hard,0.004396193
+cat__style_matchup_Unknown vs Counterpuncher,0.0039021515
+cat__style_matchup_Counterpuncher vs Unknown,0.0037791666
+cat__style_pair_Serve-and-Volleyer vs Unknown,0.0037265327
+cat__style_surface_pair_Aggressive Baseliner vs Serve-and-Volleyer_clay,0.0029973807
+cat__style_surface_pair_All-Court Player vs Serve-and-Volleyer_clay,0.0028000604
+cat__series_masters cup,0.0026903872
+cat__style_surface_pair_Counterpuncher vs Unknown_clay,0.002241711
+cat__style_pair_Counterpuncher vs Serve-and-Volleyer,0.0021748736
+cat__style_surface_pair_All-Court Player vs Serve-and-Volleyer_grass,0.0019445146
+cat__round_round robin,0.0014252285
+cat__style_matchup_Unknown vs Serve-and-Volleyer,0.0014088684
+cat__style_matchup_Serve-and-Volleyer vs Counterpuncher,0.0013789512
+cat__style_surface_pair_Counterpuncher vs Serve-and-Volleyer_clay,0.0013521054
+cat__style_matchup_Serve-and-Volleyer vs Unknown,0.0010613962
+cat__style_surface_pair_Aggressive Baseliner vs Unknown_grass,0.0
+cat__style_surface_pair_Serve-and-Volleyer vs Serve-and-Volleyer_clay,0.0
+cat__cluster_matchup_cluster_unknown vs cluster_unknown,0.0
+cat__p2_cluster_cluster_unknown,0.0
+cat__p1_cluster_cluster_unknown,0.0
+cat__style_surface_pair_Unknown vs Unknown_hard,0.0
+cat__style_surface_pair_Unknown vs Unknown_grass,0.0
+cat__style_surface_pair_Unknown vs Unknown_clay,0.0
+cat__style_surface_pair_Serve-and-Volleyer vs Unknown_hard,0.0
+cat__style_surface_pair_Serve-and-Volleyer vs Unknown_grass,0.0
+cat__style_surface_pair_Serve-and-Volleyer vs Unknown_clay,0.0
+cat__style_surface_pair_Serve-and-Volleyer vs Serve-and-Volleyer_hard,0.0
+cat__style_surface_pair_Serve-and-Volleyer vs Serve-and-Volleyer_grass,0.0
+num__surf_exp_diff,0.0
+cat__style_pair_Unknown vs Unknown,0.0
+cat__style_surface_pair_Counterpuncher vs Unknown_grass,0.0
+num__same_cluster,0.0
+cat__p1_hand_U,0.0
+cat__style_surface_pair_Counterpuncher vs Serve-and-Volleyer_grass,0.0
+cat__p2_hand_U,0.0
+cat__style_surface_pair_Counterpuncher vs Counterpuncher_grass,0.0
+cat__style_matchup_Serve-and-Volleyer vs Serve-and-Volleyer,0.0
+cat__style_surface_pair_All-Court Player vs Unknown_grass,0.0
+cat__style_matchup_Unknown vs Unknown,0.0
+cat__style_pair_Serve-and-Volleyer vs Serve-and-Volleyer,0.0
+cat__cluster_pair_cluster_unknown vs cluster_unknown,0.0

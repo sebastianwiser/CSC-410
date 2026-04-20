@@ -1,0 +1,90 @@
+feature,importance
+num__elo_diff,0.08281371
+num__elo_surf_diff,0.04382715
+num__rank_ratio,0.031213535
+num__log_rank_diff,0.022138242
+num__pts_diff,0.016568638
+cat__best_of_3,0.016518334
+cat__series_grand slam,0.01521084
+num__days_rest_diff,0.014964338
+cat__best_of_5,0.014402716
+cat__p2_style_All-Court Player,0.014008519
+cat__p1_style_Serve-and-Volleyer,0.013379632
+cat__round_semifinals,0.013338049
+num__rank_diff,0.0132091
+cat__style_matchup_Counterpuncher vs Aggressive Baseliner,0.013081147
+cat__style_pair_Aggressive Baseliner vs Counterpuncher,0.0130778495
+cat__style_pair_All-Court Player vs Serve-and-Volleyer,0.013053449
+cat__p2_style_Serve-and-Volleyer,0.012662115
+num__surf_form_diff,0.012476444
+cat__surface_grass,0.012443341
+cat__style_matchup_Aggressive Baseliner vs Unknown,0.012420976
+cat__p1_style_Counterpuncher,0.012396895
+cat__style_matchup_All-Court Player vs Aggressive Baseliner,0.012307614
+cat__surface_clay,0.012247055
+cat__style_pair_Counterpuncher vs Serve-and-Volleyer,0.012146045
+cat__style_matchup_Aggressive Baseliner vs Counterpuncher,0.012139967
+num__experience_diff,0.012065552
+cat__style_pair_Aggressive Baseliner vs All-Court Player,0.012049253
+cat__style_pair_All-Court Player vs All-Court Player,0.012031986
+cat__p2_style_Unknown,0.012012501
+cat__round_3rd round,0.01200845
+cat__p2_style_Counterpuncher,0.011682018
+cat__style_pair_Counterpuncher vs Counterpuncher,0.011658022
+cat__style_matchup_Aggressive Baseliner vs All-Court Player,0.011648803
+cat__court_indoor,0.011615527
+cat__style_pair_Counterpuncher vs Unknown,0.011591588
+cat__p1_style_All-Court Player,0.011578129
+cat__round_1st round,0.011438337
+cat__style_pair_Aggressive Baseliner vs Unknown,0.011423699
+num__same_style,0.011411051
+cat__p1_style_Unknown,0.0113914255
+num__surface_specialist_diff,0.011296032
+num__form_long_diff,0.011240277
+cat__round_the final,0.011186113
+cat__style_matchup_Counterpuncher vs All-Court Player,0.011160807
+cat__style_matchup_All-Court Player vs All-Court Player,0.0110093085
+cat__style_matchup_Counterpuncher vs Counterpuncher,0.010939413
+cat__series_atp500,0.010911627
+cat__style_pair_Aggressive Baseliner vs Aggressive Baseliner,0.010911224
+cat__style_matchup_Counterpuncher vs Unknown,0.010848521
+num__h2h_n,0.010819388
+cat__series_masters 1000,0.01059459
+cat__series_atp250,0.010567481
+num__form_short_diff,0.010509266
+num__form_trend_diff,0.010428161
+cat__style_matchup_Aggressive Baseliner vs Aggressive Baseliner,0.010371048
+cat__round_2nd round,0.0103550935
+cat__style_matchup_Aggressive Baseliner vs Serve-and-Volleyer,0.010342359
+cat__style_matchup_Serve-and-Volleyer vs Aggressive Baseliner,0.010227147
+cat__court_outdoor,0.010059548
+num__h2h_rate,0.009965286
+cat__style_pair_Aggressive Baseliner vs Serve-and-Volleyer,0.009944751
+cat__style_pair_All-Court Player vs Counterpuncher,0.009935091
+cat__round_quarterfinals,0.009710589
+cat__p2_style_Aggressive Baseliner,0.0096127475
+cat__p1_style_Aggressive Baseliner,0.009480319
+cat__round_4th round,0.009468651
+cat__style_pair_All-Court Player vs Unknown,0.009166149
+cat__style_matchup_All-Court Player vs Counterpuncher,0.009033557
+cat__style_matchup_All-Court Player vs Unknown,0.008097998
+cat__style_pair_Serve-and-Volleyer vs Unknown,0.007888486
+cat__surface_hard,0.0076036863
+cat__style_matchup_Serve-and-Volleyer vs All-Court Player,0.007354147
+cat__style_matchup_All-Court Player vs Serve-and-Volleyer,0.0070336577
+cat__round_round robin,0.0067460327
+cat__style_matchup_Counterpuncher vs Serve-and-Volleyer,0.0061418586
+cat__style_matchup_Serve-and-Volleyer vs Counterpuncher,0.0060945544
+cat__style_matchup_Unknown vs All-Court Player,0.0055073504
+cat__series_masters cup,0.004908835
+cat__style_matchup_Unknown vs Aggressive Baseliner,0.004876847
+cat__style_matchup_Unknown vs Unknown,0.0
+cat__style_matchup_Unknown vs Serve-and-Volleyer,0.0
+cat__style_matchup_Unknown vs Counterpuncher,0.0
+cat__p2_hand_U,0.0
+cat__p1_hand_U,0.0
+cat__style_matchup_Serve-and-Volleyer vs Unknown,0.0
+cat__style_matchup_Serve-and-Volleyer vs Serve-and-Volleyer,0.0
+num__surf_exp_diff,0.0
+cat__style_pair_Serve-and-Volleyer vs Serve-and-Volleyer,0.0
+cat__style_pair_Unknown vs Unknown,0.0

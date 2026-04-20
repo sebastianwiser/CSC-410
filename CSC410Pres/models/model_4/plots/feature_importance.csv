@@ -1,0 +1,46 @@
+feature,importance
+num__elo_diff,0.17190005
+num__elo_surf_diff,0.07227912
+num__log_rank_diff,0.049381692
+num__rank_ratio,0.04144606
+cat__series_grand slam,0.031948328
+num__days_rest_diff,0.02891958
+cat__best_of_3,0.027577769
+num__rank_diff,0.026817413
+cat__best_of_5,0.025185512
+num__pts_diff,0.024768928
+num__experience_diff,0.023783894
+cat__surface_grass,0.023549523
+cat__surface_clay,0.023500223
+cat__round_the final,0.022680912
+num__surf_form_diff,0.022628115
+cat__round_1st round,0.022605916
+num__surface_specialist_diff,0.022584388
+cat__series_masters 1000,0.021973629
+cat__round_semifinals,0.021901397
+cat__series_atp500,0.021750752
+num__form_long_diff,0.021677341
+cat__round_3rd round,0.021671787
+num__h2h_n,0.021321902
+num__form_trend_diff,0.021125272
+cat__court_indoor,0.020911066
+cat__round_2nd round,0.020805106
+num__form_short_diff,0.02042523
+cat__series_atp250,0.020009963
+cat__round_4th round,0.01989798
+cat__court_outdoor,0.019886171
+num__h2h_rate,0.01963521
+cat__surface_hard,0.017469333
+cat__round_quarterfinals,0.016456252
+cat__round_round robin,0.011524093
+cat__p1_hand_U,0.0
+num__inj_recent_return_diff,0.0
+cat__series_masters cup,0.0
+num__inj_retired_recent_diff,0.0
+num__inj_chronic_recent_diff,0.0
+num__inj_joint_recent_diff,0.0
+num__inj_days_since_last_diff,0.0
+num__inj_count_365_diff,0.0
+num__inj_recent_flag_diff,0.0
+num__surf_exp_diff,0.0
+cat__p2_hand_U,0.0

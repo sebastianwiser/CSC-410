@@ -1,0 +1,1211 @@
+{
+  "generated_at": "2026-04-18T17:41:45",
+  "model": "gpt-5.4-mini",
+  "selection_mode": "unique-match-players",
+  "ranking_date": null,
+  "player_count": 100,
+  "player_start_index": 1,
+  "player_end_index": 100,
+  "batch_target_end_index": 100,
+  "batch_complete": true,
+  "total_players_in_scope": 1261,
+  "input_match_files": [
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2014.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2015.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2016.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2017.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2018.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2019.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2020.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2021.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2022.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2023.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2024.csv"
+  ],
+  "source_policy": {
+    "primary_allowed_domains": [
+      "apnews.com",
+      "atptour.com",
+      "ausopen.com",
+      "bbc.com",
+      "espn.com",
+      "olympics.com",
+      "reuters.com",
+      "rolandgarros.com",
+      "tennis.com",
+      "tennismajors.com",
+      "usopen.org",
+      "wimbledon.com"
+    ],
+    "expanded_allowed_domains": [
+      "apnews.com",
+      "atptour.com",
+      "ausopen.com",
+      "bbc.com",
+      "espn.com",
+      "olympics.com",
+      "reuters.com",
+      "rolandgarros.com",
+      "tennis.com",
+      "tennismajors.com",
+      "usopen.org",
+      "wimbledon.com",
+      "cbc.ca",
+      "sportskeeda.com",
+      "tennisworldusa.org",
+      "thesportsrush.com",
+      "yahoo.com"
+    ],
+    "user_location": {
+      "type": "approximate",
+      "country": "US",
+      "timezone": "America/New_York"
+    }
+  },
+  "players": {
+    "Jarkko Nieminen": {
+      "player_name": "Jarkko Nieminen",
+      "injuries": []
+    },
+    "Marinko Matosevic": {
+      "player_name": "Marinko Matosevic",
+      "injuries": [
+        {
+          "injury_name": "right foot bone bruise",
+          "body_location": "right foot",
+          "body_half": "bottom",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2013-02-23",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://www.espn.com/tennis/story/_/id/8977732/marinko-matosevic-pulls-memphis-kei-nishikori-advances-final"
+          ]
+        }
+      ]
+    },
+    "Sam Querrey": {
+      "player_name": "Sam Querrey",
+      "injuries": []
+    },
+    "Sam Groth": {
+      "player_name": "Sam Groth",
+      "injuries": []
+    },
+    "Nicolas Mahut": {
+      "player_name": "Nicolas Mahut",
+      "injuries": []
+    },
+    "Jeremy Chardy": {
+      "player_name": "Jeremy Chardy",
+      "injuries": [
+        {
+          "injury_name": "right knee surgery",
+          "body_location": "right knee",
+          "body_half": "bottom",
+          "joint_injury": true,
+          "acute_or_chronic": "unknown",
+          "injury_date": "2022-06",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.tennis.com/news/articles/ugo-humbert-brings-on-sidelined-jeremy-chardy-as-coach-struggles-covid-19",
+            "https://www.atptour.com/en/news/chardy"
+          ]
+        }
+      ]
+    },
+    "Feliciano Lopez": {
+      "player_name": "Feliciano Lopez",
+      "injuries": []
+    },
+    "Lleyton Hewitt": {
+      "player_name": "Lleyton Hewitt",
+      "injuries": []
+    },
+    "Marius Copil": {
+      "player_name": "Marius Copil",
+      "injuries": []
+    },
+    "Grigor Dimitrov": {
+      "player_name": "Grigor Dimitrov",
+      "injuries": [
+        {
+          "injury_name": "back injury",
+          "body_location": "back",
+          "body_half": "top",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2021-06",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "2-6 weeks",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://www.espn.com/tennis/story/_/id/45690249/jannik-sinner-2-sets-advances-wimbledon-2025-injured-grigor-dimitrov-retires",
+            "https://www.atptour.com/en/news/retirements-stats-majors"
+          ]
+        },
+        {
+          "injury_name": "foot injury",
+          "body_location": "foot",
+          "body_half": "bottom",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2021-09",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "2-8 weeks",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://www.espn.com/tennis/story/_/id/45690249/jannik-sinner-2-sets-advances-wimbledon-2025-injured-grigor-dimitrov-retires",
+            "https://www.atptour.com/en/news/retirements-stats-majors"
+          ]
+        },
+        {
+          "injury_name": "thigh injury",
+          "body_location": "thigh",
+          "body_half": "bottom",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2022-07",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "1-6 weeks",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://www.espn.com/tennis/story/_/id/45690249/jannik-sinner-2-sets-advances-wimbledon-2025-injured-grigor-dimitrov-retires",
+            "https://www.atptour.com/en/news/retirements-stats-majors"
+          ]
+        },
+        {
+          "injury_name": "groin injury",
+          "body_location": "groin",
+          "body_half": "bottom",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2024-07",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "2-6 weeks",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://www.espn.com/tennis/story/_/id/45690249/jannik-sinner-2-sets-advances-wimbledon-2025-injured-grigor-dimitrov-retires",
+            "https://www.atptour.com/en/news/retirements-stats-majors"
+          ]
+        },
+        {
+          "injury_name": "groin/leg injury",
+          "body_location": "groin/leg",
+          "body_half": "bottom",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2024-08",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "2-6 weeks",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://www.espn.com/tennis/story/_/id/45690249/jannik-sinner-2-sets-advances-wimbledon-2025-injured-grigor-dimitrov-retires",
+            "https://www.atptour.com/en/news/retirements-stats-majors"
+          ]
+        },
+        {
+          "injury_name": "adductor injury",
+          "body_location": "adductor",
+          "body_half": "bottom",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2025-01",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "2-6 weeks",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://www.espn.com/tennis/story/_/id/45690249/jannik-sinner-2-sets-advances-wimbledon-2025-injured-grigor-dimitrov-retires",
+            "https://www.atptour.com/en/news/retirements-stats-majors"
+          ]
+        },
+        {
+          "injury_name": "thigh injury",
+          "body_location": "thigh",
+          "body_half": "bottom",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2025-05",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "1-6 weeks",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://www.espn.com/tennis/story/_/id/45690249/jannik-sinner-2-sets-advances-wimbledon-2025-injured-grigor-dimitrov-retires",
+            "https://www.atptour.com/en/news/retirements-stats-majors"
+          ]
+        },
+        {
+          "injury_name": "pectoral muscle injury",
+          "body_location": "pectoral muscle",
+          "body_half": "top",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2025-07",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "4-12 weeks",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://www.espn.com/tennis/story/_/id/45690249/jannik-sinner-2-sets-advances-wimbledon-2025-injured-grigor-dimitrov-retires",
+            "https://www.atptour.com/en/news/dimitrov-us-open-2025-withdrawal",
+            "https://www.atptour.com/en/news/retirements-stats-majors"
+          ]
+        },
+        {
+          "injury_name": "shoulder injury",
+          "body_location": "shoulder",
+          "body_half": "top",
+          "joint_injury": true,
+          "acute_or_chronic": "acute",
+          "injury_date": "2025-10",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "1-6 weeks",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/dimitrov-paris-2025-withdrawal"
+          ]
+        }
+      ]
+    },
+    "Marin Cilic": {
+      "player_name": "Marin Cilic",
+      "injuries": [
+        {
+          "injury_name": "knee injury",
+          "body_location": "knee",
+          "body_half": "bottom",
+          "joint_injury": true,
+          "acute_or_chronic": "acute",
+          "injury_date": "2023-01",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.tennis.com/news/articles/former-finalist-cilic-out-of-australian-open-due-to-injury",
+            "https://www.rolandgarros.com/en-us/article/rg2025-research-recover-and-repeat"
+          ]
+        }
+      ]
+    },
+    "Matthew Ebden": {
+      "player_name": "Matthew Ebden",
+      "injuries": []
+    },
+    "Roger Federer": {
+      "player_name": "Roger Federer",
+      "injuries": [
+        {
+          "injury_name": "right knee surgery/rehab",
+          "body_location": "right knee",
+          "body_half": "bottom",
+          "joint_injury": true,
+          "acute_or_chronic": "chronic",
+          "injury_date": "2020",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/federer-roland-garros-2021-withdrawal",
+            "https://www.atptour.com/en/news/atp-awards-2021-fans-favourite-roger-federer"
+          ]
+        }
+      ]
+    },
+    "Kei Nishikori": {
+      "player_name": "Kei Nishikori",
+      "injuries": [
+        {
+          "injury_name": "hip surgery",
+          "body_location": "hip",
+          "body_half": "bottom",
+          "joint_injury": true,
+          "acute_or_chronic": "chronic",
+          "injury_date": "2022",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "6-12 months",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/nishikori-atlanta-2023-feature"
+          ]
+        },
+        {
+          "injury_name": "ankle sprain",
+          "body_location": "ankle",
+          "body_half": "bottom",
+          "joint_injury": true,
+          "acute_or_chronic": "acute",
+          "injury_date": "2022-12",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "2-8 weeks",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/nishikori-atlanta-2023-feature"
+          ]
+        },
+        {
+          "injury_name": "left knee injury",
+          "body_location": "left knee",
+          "body_half": "bottom",
+          "joint_injury": true,
+          "acute_or_chronic": "unknown",
+          "injury_date": "2023-08",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "2-6 weeks",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/nishikori-washington-2023-withdrawal",
+            "https://www.atptour.com/en/news/nishikori-us-open-2023-withdrawal"
+          ]
+        },
+        {
+          "injury_name": "back injury",
+          "body_location": "back",
+          "body_half": "top",
+          "joint_injury": false,
+          "acute_or_chronic": "unknown",
+          "injury_date": "2025-08",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "6-12 weeks",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://www.atptour.com/en/news/nishikori-us-open-2025-withdrawal"
+          ]
+        }
+      ]
+    },
+    "Benjamin Becker": {
+      "player_name": "Benjamin Becker",
+      "injuries": []
+    },
+    "Aljaz Bedene": {
+      "player_name": "Aljaz Bedene",
+      "injuries": []
+    },
+    "Alexander Kudryavtsev": {
+      "player_name": "Alexander Kudryavtsev",
+      "injuries": []
+    },
+    "Yuki Bhambri": {
+      "player_name": "Yuki Bhambri",
+      "injuries": [
+        {
+          "injury_name": "unspecified injury return",
+          "body_location": "unknown",
+          "body_half": "unknown",
+          "joint_injury": false,
+          "acute_or_chronic": "unknown",
+          "injury_date": "2021-02",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.espn.com/tennis/story/_/id/30926989/deeper-tennis-yuki-bhambri-most-eager-thrill-competition-return-longest-injury-break-singapore-open"
+          ]
+        }
+      ]
+    },
+    "Yen Hsun Lu": {
+      "player_name": "Yen Hsun Lu",
+      "injuries": []
+    },
+    "Vasek Pospisil": {
+      "player_name": "Vasek Pospisil",
+      "injuries": []
+    },
+    "Marcel Granollers": {
+      "player_name": "Marcel Granollers",
+      "injuries": []
+    },
+    "Ramkumar Ramanathan": {
+      "player_name": "Ramkumar Ramanathan",
+      "injuries": []
+    },
+    "Guillermo Garcia Lopez": {
+      "player_name": "Guillermo Garcia Lopez",
+      "injuries": []
+    },
+    "Edouard Roger-Vasselin": {
+      "player_name": "Edouard Roger-Vasselin",
+      "injuries": []
+    },
+    "Jiri Vesely": {
+      "player_name": "Jiri Vesely",
+      "injuries": []
+    },
+    "Dudi Sela": {
+      "player_name": "Dudi Sela",
+      "injuries": []
+    },
+    "Stan Wawrinka": {
+      "player_name": "Stan Wawrinka",
+      "injuries": [
+        {
+          "injury_name": "left foot surgery / foot injury",
+          "body_location": "left foot",
+          "body_half": "bottom",
+          "joint_injury": false,
+          "acute_or_chronic": "chronic",
+          "injury_date": "2021-03",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.espn.com/tennis/story/_/id/31466120/wawrinka-pulls-struggles-foot-injury",
+            "https://www.tennis.com/news/articles/taylor-fritz-to-undergo-knee-surgery-stan-wawrinka-withdraws-from-wimbledon-with",
+            "https://www.tennis.com/news/articles/stan-wawrinka-s-goal-is-to-return-from-foot-injury-by-the-french-open",
+            "https://www.tennis.com/news/articles/wawrinka-wins-in-return-to-indian-wells-after-four-years-away",
+            "https://www.tennis.com/news/articles/stan-wawrinka-withdraws-from-us-open-moving-andy-murray-into-main-draw",
+            "https://www.tennis.com/news/articles/stan-wawrinka-withdraws-from-gstaad-i-m-still-not-where-i-want-to-be-and-where-i"
+          ]
+        }
+      ]
+    },
+    "Benoit Paire": {
+      "player_name": "Benoit Paire",
+      "injuries": []
+    },
+    "Rafael Nadal": {
+      "player_name": "Rafael Nadal",
+      "injuries": [
+        {
+          "injury_name": "grade 2 iliopsoas muscle injury",
+          "body_location": "left iliopsoas muscle",
+          "body_half": "bottom",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2023-01-18",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "6-8 weeks",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://www.atptour.com/en/news/nadal-withdraws-paris",
+            "https://www.atptour.com/en/news/nadal-indian-wells-2023-withdrawal",
+            "https://www.atptour.com/en/news/nadal-barcelona-2023-withdrawal",
+            "https://www.atptour.com/en/news/nadal-madrid-2023-withdrawal",
+            "https://www.atptour.com/en/news/nadal-alcaraz-auger-aliassime-monte-carlo-2023-withdrawals"
+          ]
+        }
+      ]
+    },
+    "Tobias Kamke": {
+      "player_name": "Tobias Kamke",
+      "injuries": []
+    },
+    "Lukasz Kubot": {
+      "player_name": "Lukasz Kubot",
+      "injuries": []
+    },
+    "Ernests Gulbis": {
+      "player_name": "Ernests Gulbis",
+      "injuries": []
+    },
+    "Ivo Karlovic": {
+      "player_name": "Ivo Karlovic",
+      "injuries": []
+    },
+    "Dustin Brown": {
+      "player_name": "Dustin Brown",
+      "injuries": []
+    },
+    "Peter Gojowczyk": {
+      "player_name": "Peter Gojowczyk",
+      "injuries": []
+    },
+    "Philipp Kohlschreiber": {
+      "player_name": "Philipp Kohlschreiber",
+      "injuries": []
+    },
+    "Fernando Verdasco": {
+      "player_name": "Fernando Verdasco",
+      "injuries": []
+    },
+    "Victor Hanescu": {
+      "player_name": "Victor Hanescu",
+      "injuries": []
+    },
+    "Florian Mayer": {
+      "player_name": "Florian Mayer",
+      "injuries": []
+    },
+    "Andy Murray": {
+      "player_name": "Andy Murray",
+      "injuries": [
+        {
+          "injury_name": "left groin injury",
+          "body_location": "left groin",
+          "body_half": "bottom",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2021-03-23",
+          "tennis_related": "no",
+          "estimated_recovery_time": "1-4 weeks",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.espn.com/tennis/story/_/id/31121305/andy-murray-pulls-miami-open-groin-injury"
+          ]
+        },
+        {
+          "injury_name": "quad strain",
+          "body_location": "quadriceps",
+          "body_half": "bottom",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2021-07-24",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "1-6 weeks",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.espn.com/olympics/story/_/id/31878689/andy-murray-withdraws-tokyo-olympics-singles-tournament-remains-doubles"
+          ]
+        },
+        {
+          "injury_name": "abdominal injury",
+          "body_location": "abdomen",
+          "body_half": "unknown",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2022-06-12",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "1-6 weeks",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.espn.com/tennis/story/_/id/34088339/injured-andy-murray-withdraws-queen's-abdominal-injury"
+          ]
+        },
+        {
+          "injury_name": "back injury",
+          "body_location": "lower back",
+          "body_half": "top",
+          "joint_injury": false,
+          "acute_or_chronic": "chronic",
+          "injury_date": "2024-06-19",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "days to 6 weeks",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://www.espn.com/tennis/story/_/id/40386277/injured-andy-murray-forced-queen-championship"
+          ]
+        }
+      ]
+    },
+    "Richard Gasquet": {
+      "player_name": "Richard Gasquet",
+      "injuries": []
+    },
+    "Gael Monfils": {
+      "player_name": "Gael Monfils",
+      "injuries": [
+        {
+          "injury_name": "right heel injury",
+          "body_location": "right heel",
+          "body_half": "bottom",
+          "joint_injury": false,
+          "acute_or_chronic": "chronic",
+          "injury_date": "2022-04",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://www.espn.com/tennis/story/_/id/33927417/gael-monfils-sit-french-open-heel-injury-surgery",
+            "https://www.espn.com/tennis/story/_/id/34411349/gael-monfils-miss-us-open-tennis-tournament-foot-injury"
+          ]
+        }
+      ]
+    },
+    "Daniel Brands": {
+      "player_name": "Daniel Brands",
+      "injuries": []
+    },
+    "David Ferrer": {
+      "player_name": "David Ferrer",
+      "injuries": []
+    },
+    "Donald Young": {
+      "player_name": "Donald Young",
+      "injuries": []
+    },
+    "Santiago Giraldo": {
+      "player_name": "Santiago Giraldo",
+      "injuries": []
+    },
+    "Steve Johnson": {
+      "player_name": "Steve Johnson",
+      "injuries": []
+    },
+    "Bradley Klahn": {
+      "player_name": "Bradley Klahn",
+      "injuries": []
+    },
+    "Horacio Zeballos": {
+      "player_name": "Horacio Zeballos",
+      "injuries": []
+    },
+    "Lukas Lacko": {
+      "player_name": "Lukas Lacko",
+      "injuries": []
+    },
+    "Roberto Bautista Agut": {
+      "player_name": "Roberto Bautista Agut",
+      "injuries": [
+        {
+          "injury_name": "unspecified injury",
+          "body_location": "unknown",
+          "body_half": "unknown",
+          "joint_injury": false,
+          "acute_or_chronic": "unknown",
+          "injury_date": "2023-08-18",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.espn.com/tennis/story/_/id/38217224/caty-mcnally-roberto-bautista-agut-withdraw-2023-us-open"
+          ]
+        }
+      ]
+    },
+    "Jack Sock": {
+      "player_name": "Jack Sock",
+      "injuries": [
+        {
+          "injury_name": "back flare-up",
+          "body_location": "lower back",
+          "body_half": "top",
+          "joint_injury": false,
+          "acute_or_chronic": "unknown",
+          "injury_date": "2022-08-30",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://www.tennis.com/news/articles/fractured-left-wrist-forces-john-isner-to-end-us-open-campaign-jack-sock-querrey",
+            "https://www.atptour.com/en/news/best-of-2023-retirements-part-2"
+          ]
+        }
+      ]
+    },
+    "John Isner": {
+      "player_name": "John Isner",
+      "injuries": []
+    },
+    "Radek Stepanek": {
+      "player_name": "Radek Stepanek",
+      "injuries": []
+    },
+    "Albert Ramos": {
+      "player_name": "Albert Ramos",
+      "injuries": []
+    },
+    "Lukas Rosol": {
+      "player_name": "Lukas Rosol",
+      "injuries": []
+    },
+    "Denis Istomin": {
+      "player_name": "Denis Istomin",
+      "injuries": []
+    },
+    "Julien Benneteau": {
+      "player_name": "Julien Benneteau",
+      "injuries": []
+    },
+    "Sergiy Stakhovsky": {
+      "player_name": "Sergiy Stakhovsky",
+      "injuries": []
+    },
+    "Bernard Tomic": {
+      "player_name": "Bernard Tomic",
+      "injuries": []
+    },
+    "Blaz Kavcic": {
+      "player_name": "Blaz Kavcic",
+      "injuries": []
+    },
+    "Alexandr Dolgopolov": {
+      "player_name": "Alexandr Dolgopolov",
+      "injuries": [
+        {
+          "injury_name": "right wrist pain",
+          "body_location": "right wrist",
+          "body_half": "top",
+          "joint_injury": true,
+          "acute_or_chronic": "chronic",
+          "injury_date": "2018-05",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/dolgopolov-retirement-tribute-april-2021",
+            "https://www.tennis.com/news/articles/with-wrist-pain-still-present-alexandr-dolgopolov-confirms-retirement"
+          ]
+        }
+      ]
+    },
+    "Juan Martin del Potro": {
+      "player_name": "Juan Martin del Potro",
+      "injuries": [
+        {
+          "injury_name": "right knee surgery",
+          "body_location": "right knee",
+          "body_half": "bottom",
+          "joint_injury": true,
+          "acute_or_chronic": "chronic",
+          "injury_date": "2021-03-22",
+          "tennis_related": "no",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.espn.com/tennis/story/_/id/31116162/juan-martin-del-potro-knee-surgery-hopes-play-tokyo-olympics"
+          ]
+        }
+      ]
+    },
+    "Dmitry Tursunov": {
+      "player_name": "Dmitry Tursunov",
+      "injuries": []
+    },
+    "Thanasi Kokkinakis": {
+      "player_name": "Thanasi Kokkinakis",
+      "injuries": [
+        {
+          "injury_name": "right shoulder injury",
+          "body_location": "right shoulder",
+          "body_half": "top",
+          "joint_injury": true,
+          "acute_or_chronic": "chronic",
+          "injury_date": "2026-01-14",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/kokkinakis-adelaide-2026-withdrawal"
+          ]
+        },
+        {
+          "injury_name": "right shoulder trouble",
+          "body_location": "right shoulder",
+          "body_half": "top",
+          "joint_injury": true,
+          "acute_or_chronic": "chronic",
+          "injury_date": "2025-01-16",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://www.tennis.com/news/articles/nick-kyrgios-and-thanasi-kokkinakis-retire-from-their-australian-open-doubles-match"
+          ]
+        },
+        {
+          "injury_name": "pectoral surgery / injured pectoral muscle",
+          "body_location": "pectoral muscle",
+          "body_half": "top",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2025-02",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/kokkinakis-adelaide-2026-withdrawal",
+            "https://www.tennis.com/news/articles/thanasi-kokkinakis-withdraws-from-u-s-open-with-injured-pectoral-muscle"
+          ]
+        }
+      ]
+    },
+    "Andreas Seppi": {
+      "player_name": "Andreas Seppi",
+      "injuries": []
+    },
+    "Dusan Lajovic": {
+      "player_name": "Dusan Lajovic",
+      "injuries": []
+    },
+    "Milos Raonic": {
+      "player_name": "Milos Raonic",
+      "injuries": [
+        {
+          "injury_name": "hip flexor issue",
+          "body_location": "hip flexor",
+          "body_half": "top",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2024-01-15",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "1-6 weeks",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://www.espn.com/tennis/story/_/id/39312626/tennis-australian-open-alex-de-minaur-defeats-milos-raonic-retires-injured"
+          ]
+        },
+        {
+          "injury_name": "calf strain",
+          "body_location": "calf",
+          "body_half": "bottom",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2024-03-09",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "2-8 weeks",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/rune-raonic-indian-wells-2024-saturday"
+          ]
+        }
+      ]
+    },
+    "Nick Kyrgios": {
+      "player_name": "Nick Kyrgios",
+      "injuries": [
+        {
+          "injury_name": "abdominal injury",
+          "body_location": "abdomen",
+          "body_half": "top",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2021-07-03",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "2-6 weeks",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://www.tennis.com/news/articles/auger-aliassime-earns-retirement-win-over-maverick-kyrgios"
+          ]
+        },
+        {
+          "injury_name": "left knee injury",
+          "body_location": "left knee",
+          "body_half": "bottom",
+          "joint_injury": true,
+          "acute_or_chronic": "unknown",
+          "injury_date": "2022-10-07",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "2-6 weeks",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.tennis.com/news/articles/kyrgios-withdraws-from-japan-open-because-of-knee-injury"
+          ]
+        },
+        {
+          "injury_name": "knee injury",
+          "body_location": "knee",
+          "body_half": "bottom",
+          "joint_injury": true,
+          "acute_or_chronic": "unknown",
+          "injury_date": "2023-01-16",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "3-4 weeks",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.tennis.com/news/articles/nick-kyrgios-withdraws-from-australian-open-with-knee-injury"
+          ]
+        },
+        {
+          "injury_name": "foot injury",
+          "body_location": "foot",
+          "body_half": "bottom",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2023-05-18",
+          "tennis_related": "no",
+          "estimated_recovery_time": "2-6 weeks",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.tennis.com/news/articles/nick-kyrgios-out-of-french-open-due-to-foot-injury"
+          ]
+        },
+        {
+          "injury_name": "wrist injury",
+          "body_location": "wrist",
+          "body_half": "top",
+          "joint_injury": true,
+          "acute_or_chronic": "acute",
+          "injury_date": "2023-07-02",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "6-12 weeks",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.tennis.com/news/articles/nick-kyrgios-withdraws-from-wimbledon-with-wrist-injury",
+            "https://www.tennis.com/news/articles/nick-kyrgios-withdraws-on-eve-of-wimbledon-with-a-wrist-injury-he-was-the-runner"
+          ]
+        }
+      ]
+    },
+    "Vincent Millot": {
+      "player_name": "Vincent Millot",
+      "injuries": []
+    },
+    "Michael Berrer": {
+      "player_name": "Michael Berrer",
+      "injuries": []
+    },
+    "Stephane Robert": {
+      "player_name": "Stephane Robert",
+      "injuries": []
+    },
+    "Michal Przysiezny": {
+      "player_name": "Michal Przysiezny",
+      "injuries": []
+    },
+    "Blaz Rola": {
+      "player_name": "Blaz Rola",
+      "injuries": []
+    },
+    "Martin Klizan": {
+      "player_name": "Martin Klizan",
+      "injuries": []
+    },
+    "Jo-Wilfried Tsonga": {
+      "player_name": "Jo-Wilfried Tsonga",
+      "injuries": [
+        {
+          "injury_name": "chronic back problems",
+          "body_location": "back",
+          "body_half": "unknown",
+          "joint_injury": false,
+          "acute_or_chronic": "chronic",
+          "injury_date": "2020",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.tennis.com/news/articles/frenchmen-tsonga-and-pouille-withdraw-from-the-australian-open",
+            "https://www.tennis.com/news/articles/jo-wilfried-tsonga-to-retire-after-french-open"
+          ]
+        },
+        {
+          "injury_name": "right shoulder pain",
+          "body_location": "right shoulder",
+          "body_half": "top",
+          "joint_injury": true,
+          "acute_or_chronic": "acute",
+          "injury_date": "2022-05-24",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.tennis.com/news/articles/medvedev-wimbledon-ban-s-impact-on-ranking-very-strange"
+          ]
+        }
+      ]
+    },
+    "Thomaz Bellucci": {
+      "player_name": "Thomaz Bellucci",
+      "injuries": [
+        {
+          "injury_name": "left knee injury",
+          "body_location": "left knee",
+          "body_half": "bottom",
+          "joint_injury": true,
+          "acute_or_chronic": "chronic",
+          "injury_date": "2022",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.espn.com/tennis/story/_/id/35714950/brazil-thomaz-bellucci-retires-age-35-after-rio-defeat",
+            "https://www.tennis.com/news/articles/brazil-s-bellucci-retires-at-age-35-after-rio-open-defeat"
+          ]
+        }
+      ]
+    },
+    "Gilles Simon": {
+      "player_name": "Gilles Simon",
+      "injuries": []
+    },
+    "Teymuraz Gabashvili": {
+      "player_name": "Teymuraz Gabashvili",
+      "injuries": []
+    },
+    "Tomas Berdych": {
+      "player_name": "Tomas Berdych",
+      "injuries": []
+    },
+    "Kenny De Schepper": {
+      "player_name": "Kenny De Schepper",
+      "injuries": []
+    },
+    "Damir Dzumhur": {
+      "player_name": "Damir Dzumhur",
+      "injuries": [
+        {
+          "injury_name": "ruptured abdominal oblique muscle",
+          "body_location": "abdominal oblique",
+          "body_half": "top",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2024-07",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "6-8 weeks",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://www.atptour.com/en/news/dzumhur-challenger-2024-feature"
+          ]
+        }
+      ]
+    },
+    "Ivan Dodig": {
+      "player_name": "Ivan Dodig",
+      "injuries": [
+        {
+          "injury_name": "unspecified injury",
+          "body_location": "unknown",
+          "body_half": "unknown",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2023-01",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/dodig-krajicek-advance-to-rotterdam-sfs-2023"
+          ]
+        }
+      ]
+    },
+    "Kevin Anderson": {
+      "player_name": "Kevin Anderson",
+      "injuries": []
+    },
+    "Dominic Thiem": {
+      "player_name": "Dominic Thiem",
+      "injuries": [
+        {
+          "injury_name": "right wrist injury",
+          "body_location": "right wrist",
+          "body_half": "top",
+          "joint_injury": true,
+          "acute_or_chronic": "acute",
+          "injury_date": "2021-06",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/thiem-wrist-injury-update-march-2024",
+            "https://www.espn.com/tennis/story/_/id/35343775/dominic-thiem-given-wild-card-australian-open-main-draw",
+            "https://www.espn.com/tennis/story/_/id/40117986/former-us-open-champ-dominic-thiem-retire-end-season"
+          ]
+        },
+        {
+          "injury_name": "minor wrist inflammation / setback",
+          "body_location": "right wrist",
+          "body_half": "top",
+          "joint_injury": true,
+          "acute_or_chronic": "acute",
+          "injury_date": "2024-03-27",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/thiem-wrist-injury-update-march-2024",
+            "https://espndeportes.espn.com/tenis/nota/_/id/13431168/thiem-confirma-que-todavia-siente-dolores-en-la-muneca-operada-en-2021"
+          ]
+        }
+      ]
+    },
+    "Mikhail Youzhny": {
+      "player_name": "Mikhail Youzhny",
+      "injuries": []
+    },
+    "Pablo Andujar": {
+      "player_name": "Pablo Andujar",
+      "injuries": []
+    },
+    "Jerzy Janowicz": {
+      "player_name": "Jerzy Janowicz",
+      "injuries": []
+    },
+    "Adrian Mannarino": {
+      "player_name": "Adrian Mannarino",
+      "injuries": []
+    },
+    "Alejandro Falla": {
+      "player_name": "Alejandro Falla",
+      "injuries": []
+    },
+    "Tommy Robredo": {
+      "player_name": "Tommy Robredo",
+      "injuries": []
+    },
+    "Nikolay Davydenko": {
+      "player_name": "Nikolay Davydenko",
+      "injuries": []
+    },
+    "Fabio Fognini": {
+      "player_name": "Fabio Fognini",
+      "injuries": []
+    },
+    "Leonardo Mayer": {
+      "player_name": "Leonardo Mayer",
+      "injuries": []
+    },
+    "Novak Djokovic": {
+      "player_name": "Novak Djokovic",
+      "injuries": [
+        {
+          "injury_name": "foot blister",
+          "body_location": "foot",
+          "body_half": "bottom",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2026-01",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "days to 2 weeks",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://apnews.com/article/51adb29a9590dd636cbfdd810af23d79"
+          ]
+        },
+        {
+          "injury_name": "right shoulder injury",
+          "body_location": "right shoulder",
+          "body_half": "top",
+          "joint_injury": true,
+          "acute_or_chronic": "unknown",
+          "injury_date": "2026-03-15",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "2 to 6 weeks",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/djokovic-miami-2026-withdrawal",
+            "https://www.atptour.com/en/news/djokovic-monte-carlo-2026-withdrawal",
+            "https://www.atptour.com/en/news/djokovic-madrid-2026-withdrawal"
+          ]
+        },
+        {
+          "injury_name": "back injury",
+          "body_location": "back",
+          "body_half": "top",
+          "joint_injury": false,
+          "acute_or_chronic": "unknown",
+          "injury_date": "2025-09",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "days to weeks",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://apnews.com/article/c941b18205e2abcd140adf24161222b4"
+          ]
+        }
+      ]
+    },
+    "Di Wu": {
+      "player_name": "Di Wu",
+      "injuries": []
+    },
+    "Ze Zhang": {
+      "player_name": "Ze Zhang",
+      "injuries": []
+    },
+    "Jose Hernandez": {
+      "player_name": "Jose Hernandez",
+      "injuries": []
+    },
+    "Victor Estrella": {
+      "player_name": "Victor Estrella",
+      "injuries": []
+    },
+    "Jose Olivares": {
+      "player_name": "Jose Olivares",
+      "injuries": []
+    }
+  }
+}

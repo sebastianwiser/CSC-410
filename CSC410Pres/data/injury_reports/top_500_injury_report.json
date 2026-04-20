@@ -1,0 +1,558 @@
+{
+  "generated_at": "2026-04-18T18:22:52",
+  "model": "gpt-5.4-mini",
+  "selection_mode": "unique-match-players",
+  "ranking_date": null,
+  "player_count": 100,
+  "player_start_index": 401,
+  "player_end_index": 500,
+  "batch_target_end_index": 500,
+  "batch_complete": true,
+  "total_players_in_scope": 1261,
+  "input_match_files": [
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2014.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2015.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2016.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2017.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2018.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2019.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2020.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2021.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2022.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2023.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2024.csv"
+  ],
+  "source_policy": {
+    "primary_allowed_domains": [
+      "apnews.com",
+      "atptour.com",
+      "ausopen.com",
+      "bbc.com",
+      "espn.com",
+      "olympics.com",
+      "reuters.com",
+      "rolandgarros.com",
+      "tennis.com",
+      "tennismajors.com",
+      "usopen.org",
+      "wimbledon.com"
+    ],
+    "expanded_allowed_domains": [
+      "apnews.com",
+      "atptour.com",
+      "ausopen.com",
+      "bbc.com",
+      "espn.com",
+      "olympics.com",
+      "reuters.com",
+      "rolandgarros.com",
+      "tennis.com",
+      "tennismajors.com",
+      "usopen.org",
+      "wimbledon.com",
+      "cbc.ca",
+      "sportskeeda.com",
+      "tennisworldusa.org",
+      "thesportsrush.com",
+      "yahoo.com"
+    ],
+    "user_location": {
+      "type": "approximate",
+      "country": "US",
+      "timezone": "America/New_York"
+    }
+  },
+  "players": {
+    "Brayden Schnur": {
+      "player_name": "Brayden Schnur",
+      "injuries": []
+    },
+    "Chase Buchanan": {
+      "player_name": "Chase Buchanan",
+      "injuries": []
+    },
+    "Noah Rubin": {
+      "player_name": "Noah Rubin",
+      "injuries": []
+    },
+    "Marcos Giron": {
+      "player_name": "Marcos Giron",
+      "injuries": [
+        {
+          "injury_name": "hip labral tears / hip surgeries",
+          "body_location": "hips",
+          "body_half": "top",
+          "joint_injury": true,
+          "acute_or_chronic": "chronic",
+          "injury_date": "2015-12",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/marcos-giron-feature-new-york-2020"
+          ]
+        }
+      ]
+    },
+    "Steve Darcis": {
+      "player_name": "Steve Darcis",
+      "injuries": []
+    },
+    "Niels Desein": {
+      "player_name": "Niels Desein",
+      "injuries": []
+    },
+    "Yoshihito Nishioka": {
+      "player_name": "Yoshihito Nishioka",
+      "injuries": [
+        {
+          "injury_name": "leg injury",
+          "body_location": "leg",
+          "body_half": "bottom",
+          "joint_injury": false,
+          "acute_or_chronic": "acute",
+          "injury_date": "2023-01-07",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://www.tennis.com/news/articles/sabalenka-advances-to-adelaide-international-women-s-final",
+            "https://www.espn.com/tennis/story/_/id/35395803/aryna-sabalenka-advances-adelaide-international-women-final"
+          ]
+        }
+      ]
+    },
+    "Mikelis Libietis": {
+      "player_name": "Mikelis Libietis",
+      "injuries": []
+    },
+    "Jui Chen Hung": {
+      "player_name": "Jui Chen Hung",
+      "injuries": []
+    },
+    "Chieh Fu Wang": {
+      "player_name": "Chieh Fu Wang",
+      "injuries": []
+    },
+    "Jesus Bandres": {
+      "player_name": "Jesus Bandres",
+      "injuries": []
+    },
+    "Lucas Gomez": {
+      "player_name": "Lucas Gomez",
+      "injuries": []
+    },
+    "Temur Ismailov": {
+      "player_name": "Temur Ismailov",
+      "injuries": []
+    },
+    "Sanjar Fayziev": {
+      "player_name": "Sanjar Fayziev",
+      "injuries": []
+    },
+    "Bar Tzuf Botzer": {
+      "player_name": "Bar Tzuf Botzer",
+      "injuries": []
+    },
+    "Florent Serra": {
+      "player_name": "Florent Serra",
+      "injuries": []
+    },
+    "Omar Jasika": {
+      "player_name": "Omar Jasika",
+      "injuries": []
+    },
+    "Kento Takeuchi": {
+      "player_name": "Kento Takeuchi",
+      "injuries": []
+    },
+    "Philipp Oswald": {
+      "player_name": "Philipp Oswald",
+      "injuries": []
+    },
+    "Gregoire Burquier": {
+      "player_name": "Gregoire Burquier",
+      "injuries": []
+    },
+    "Hiroki Moriya": {
+      "player_name": "Hiroki Moriya",
+      "injuries": []
+    },
+    "Bowen Ouyang": {
+      "player_name": "Bowen Ouyang",
+      "injuries": []
+    },
+    "Xin Gao": {
+      "player_name": "Xin Gao",
+      "injuries": []
+    },
+    "Yan Bai": {
+      "player_name": "Yan Bai",
+      "injuries": []
+    },
+    "Aslan Karatsev": {
+      "player_name": "Aslan Karatsev",
+      "injuries": []
+    },
+    "Victor Baluda": {
+      "player_name": "Victor Baluda",
+      "injuries": []
+    },
+    "Patrik Rosenholm": {
+      "player_name": "Patrik Rosenholm",
+      "injuries": []
+    },
+    "Stefan Kozlov": {
+      "player_name": "Stefan Kozlov",
+      "injuries": []
+    },
+    "John Millman": {
+      "player_name": "John Millman",
+      "injuries": []
+    },
+    "Nicolas Jarry": {
+      "player_name": "Nicolas Jarry",
+      "injuries": [
+        {
+          "injury_name": "vestibular neuritis",
+          "body_location": "inner ear",
+          "body_half": "unknown",
+          "joint_injury": false,
+          "acute_or_chronic": "chronic",
+          "injury_date": "2024",
+          "tennis_related": "no",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.tennis.com/news/articles/nicolas-jarry-reaches-wimbledon-week-two-vestibular-neuritis-ear-fonseca-fillol"
+          ]
+        }
+      ]
+    },
+    "Luca Vanni": {
+      "player_name": "Luca Vanni",
+      "injuries": []
+    },
+    "Guido Andreozzi": {
+      "player_name": "Guido Andreozzi",
+      "injuries": []
+    },
+    "Hans Podlipnik Castillo": {
+      "player_name": "Hans Podlipnik Castillo",
+      "injuries": []
+    },
+    "Marton Fucsovics": {
+      "player_name": "Marton Fucsovics",
+      "injuries": []
+    },
+    "Gabor Borsos": {
+      "player_name": "Gabor Borsos",
+      "injuries": []
+    },
+    "Sunu Wahyu Trijati": {
+      "player_name": "Sunu Wahyu Trijati",
+      "injuries": []
+    },
+    "Dimitar Kuzmanov": {
+      "player_name": "Dimitar Kuzmanov",
+      "injuries": [
+        {
+          "injury_name": "unspecified physical issue leading to retirement",
+          "body_location": "unknown",
+          "body_half": "unknown",
+          "joint_injury": false,
+          "acute_or_chronic": "unknown",
+          "injury_date": "2023-04-06",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://www.tennismajors.com/atp/marrakech-open-carballes-baena-advances-to-quarter-finals-671958.html"
+          ]
+        }
+      ]
+    },
+    "Antso Rakotondramanga": {
+      "player_name": "Antso Rakotondramanga",
+      "injuries": []
+    },
+    "Lofo Ramiaramanana": {
+      "player_name": "Lofo Ramiaramanana",
+      "injuries": []
+    },
+    "Daniel Garza": {
+      "player_name": "Daniel Garza",
+      "injuries": []
+    },
+    "Francis Casey Alcantara": {
+      "player_name": "Francis Casey Alcantara",
+      "injuries": []
+    },
+    "Joao Domingues": {
+      "player_name": "Joao Domingues",
+      "injuries": []
+    },
+    "Alex Llompart": {
+      "player_name": "Alex Llompart",
+      "injuries": []
+    },
+    "Christian Garay": {
+      "player_name": "Christian Garay",
+      "injuries": []
+    },
+    "Fritz Wolmarans": {
+      "player_name": "Fritz Wolmarans",
+      "injuries": []
+    },
+    "Cem Ilkel": {
+      "player_name": "Cem Ilkel",
+      "injuries": []
+    },
+    "Luis David Martinez": {
+      "player_name": "Luis David Martinez",
+      "injuries": []
+    },
+    "Tomislav Brkic": {
+      "player_name": "Tomislav Brkic",
+      "injuries": []
+    },
+    "Benjamin Lock": {
+      "player_name": "Benjamin Lock",
+      "injuries": []
+    },
+    "Jan Mertl": {
+      "player_name": "Jan Mertl",
+      "injuries": []
+    },
+    "Arthur De Greef": {
+      "player_name": "Arthur De Greef",
+      "injuries": []
+    },
+    "Janko Tipsarevic": {
+      "player_name": "Janko Tipsarevic",
+      "injuries": []
+    },
+    "Nikola Mektic": {
+      "player_name": "Nikola Mektic",
+      "injuries": []
+    },
+    "Mischa Zverev": {
+      "player_name": "Mischa Zverev",
+      "injuries": []
+    },
+    "Matteo Donati": {
+      "player_name": "Matteo Donati",
+      "injuries": []
+    },
+    "Taylor Fritz": {
+      "player_name": "Taylor Fritz",
+      "injuries": [
+        {
+          "injury_name": "torn meniscus in right knee",
+          "body_location": "right knee",
+          "body_half": "bottom",
+          "joint_injury": true,
+          "acute_or_chronic": "acute",
+          "injury_date": "2021-06-04",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://www.espn.com/tennis/story/_/id/31566953/american-taylor-fritz-undergo-meniscus-surgery-right-knee-hopes-play-wimbledon/crossDomain",
+            "https://www.espn.com/tennis/story/_/id/31751200/taylor-fritz-injury-quick-recovery-wimbledon-more"
+          ]
+        },
+        {
+          "injury_name": "injury withdrawal",
+          "body_location": "unknown",
+          "body_half": "unknown",
+          "joint_injury": false,
+          "acute_or_chronic": "unknown",
+          "injury_date": "2026-03-26",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/fritz-monte-carlo-2026-withdrawal"
+          ]
+        }
+      ]
+    },
+    "Liam Broady": {
+      "player_name": "Liam Broady",
+      "injuries": []
+    },
+    "M Abid Ali Khan Akbar": {
+      "player_name": "M Abid Ali Khan Akbar",
+      "injuries": []
+    },
+    "Aljaz Radinski": {
+      "player_name": "Aljaz Radinski",
+      "injuries": []
+    },
+    "Nik Razborsek": {
+      "player_name": "Nik Razborsek",
+      "injuries": []
+    },
+    "Oliver Marach": {
+      "player_name": "Oliver Marach",
+      "injuries": []
+    },
+    "Seong Chan Hong": {
+      "player_name": "Seong Chan Hong",
+      "injuries": []
+    },
+    "Shahin Khaledan": {
+      "player_name": "Shahin Khaledan",
+      "injuries": []
+    },
+    "Jean Jacques Rakotohasy": {
+      "player_name": "Jean Jacques Rakotohasy",
+      "injuries": []
+    },
+    "Alex Diaz": {
+      "player_name": "Alex Diaz",
+      "injuries": []
+    },
+    "Tucker Vorster": {
+      "player_name": "Tucker Vorster",
+      "injuries": []
+    },
+    "Hady Habib": {
+      "player_name": "Hady Habib",
+      "injuries": []
+    },
+    "Takanyi Garanganga": {
+      "player_name": "Takanyi Garanganga",
+      "injuries": []
+    },
+    "Juan Carlos Saez": {
+      "player_name": "Juan Carlos Saez",
+      "injuries": []
+    },
+    "Peter Nagy": {
+      "player_name": "Peter Nagy",
+      "injuries": []
+    },
+    "Daniel Elahi Galan": {
+      "player_name": "Daniel Elahi Galan",
+      "injuries": []
+    },
+    "Alexander Sarkissian": {
+      "player_name": "Alexander Sarkissian",
+      "injuries": []
+    },
+    "Marcelo Demoliner": {
+      "player_name": "Marcelo Demoliner",
+      "injuries": []
+    },
+    "Alejandro Gomez Gb42": {
+      "player_name": "Alejandro Gomez Gb42",
+      "injuries": []
+    },
+    "Adrian Menendez Maceiras": {
+      "player_name": "Adrian Menendez Maceiras",
+      "injuries": []
+    },
+    "Bastian Trinker": {
+      "player_name": "Bastian Trinker",
+      "injuries": []
+    },
+    "Jaume Munar": {
+      "player_name": "Jaume Munar",
+      "injuries": []
+    },
+    "Dennis Novak": {
+      "player_name": "Dennis Novak",
+      "injuries": []
+    },
+    "Mardy Fish": {
+      "player_name": "Mardy Fish",
+      "injuries": []
+    },
+    "Marat Deviatiarov": {
+      "player_name": "Marat Deviatiarov",
+      "injuries": []
+    },
+    "Zhe Li": {
+      "player_name": "Zhe Li",
+      "injuries": []
+    },
+    "Zhizhen Zhang": {
+      "player_name": "Zhizhen Zhang",
+      "injuries": []
+    },
+    "Nicolas Xiviller": {
+      "player_name": "Nicolas Xiviller",
+      "injuries": []
+    },
+    "N Vijay Sundar Prashanth": {
+      "player_name": "N Vijay Sundar Prashanth",
+      "injuries": []
+    },
+    "Jabor Al Mutawa": {
+      "player_name": "Jabor Al Mutawa",
+      "injuries": []
+    },
+    "Andre Ghem": {
+      "player_name": "Andre Ghem",
+      "injuries": []
+    },
+    "Giovanni Lapentti": {
+      "player_name": "Giovanni Lapentti",
+      "injuries": []
+    },
+    "Toni Androic": {
+      "player_name": "Toni Androic",
+      "injuries": []
+    },
+    "Antonio Veic": {
+      "player_name": "Antonio Veic",
+      "injuries": []
+    },
+    "Eric Quigley": {
+      "player_name": "Eric Quigley",
+      "injuries": []
+    },
+    "Andres Molteni": {
+      "player_name": "Andres Molteni",
+      "injuries": []
+    },
+    "Fabrice Martin": {
+      "player_name": "Fabrice Martin",
+      "injuries": []
+    },
+    "Kamil Majchrzak": {
+      "player_name": "Kamil Majchrzak",
+      "injuries": []
+    },
+    "Edan Leshem": {
+      "player_name": "Edan Leshem",
+      "injuries": []
+    },
+    "Tom Kocevar Desman": {
+      "player_name": "Tom Kocevar Desman",
+      "injuries": []
+    },
+    "Ji Sung Nam": {
+      "player_name": "Ji Sung Nam",
+      "injuries": []
+    },
+    "Juan Pablo Varillas": {
+      "player_name": "Juan Pablo Varillas",
+      "injuries": []
+    },
+    "Duilio Vallebuona": {
+      "player_name": "Duilio Vallebuona",
+      "injuries": []
+    },
+    "Andrei Ciumac": {
+      "player_name": "Andrei Ciumac",
+      "injuries": []
+    },
+    "Maxim Bulat": {
+      "player_name": "Maxim Bulat",
+      "injuries": []
+    }
+  }
+}

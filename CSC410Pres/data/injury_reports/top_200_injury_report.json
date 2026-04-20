@@ -1,0 +1,558 @@
+{
+  "generated_at": "2026-04-18T17:51:29",
+  "model": "gpt-5.4-mini",
+  "selection_mode": "unique-match-players",
+  "ranking_date": null,
+  "player_count": 100,
+  "player_start_index": 101,
+  "player_end_index": 200,
+  "batch_target_end_index": 200,
+  "batch_complete": true,
+  "total_players_in_scope": 1261,
+  "input_match_files": [
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2014.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2015.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2016.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2017.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2018.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2019.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2020.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2021.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2022.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2023.csv",
+    "/Users/christopherpreston/Desktop/CSC410/atp_matches_2024.csv"
+  ],
+  "source_policy": {
+    "primary_allowed_domains": [
+      "apnews.com",
+      "atptour.com",
+      "ausopen.com",
+      "bbc.com",
+      "espn.com",
+      "olympics.com",
+      "reuters.com",
+      "rolandgarros.com",
+      "tennis.com",
+      "tennismajors.com",
+      "usopen.org",
+      "wimbledon.com"
+    ],
+    "expanded_allowed_domains": [
+      "apnews.com",
+      "atptour.com",
+      "ausopen.com",
+      "bbc.com",
+      "espn.com",
+      "olympics.com",
+      "reuters.com",
+      "rolandgarros.com",
+      "tennis.com",
+      "tennismajors.com",
+      "usopen.org",
+      "wimbledon.com",
+      "cbc.ca",
+      "sportskeeda.com",
+      "tennisworldusa.org",
+      "thesportsrush.com",
+      "yahoo.com"
+    ],
+    "user_location": {
+      "type": "approximate",
+      "country": "US",
+      "timezone": "America/New_York"
+    }
+  },
+  "players": {
+    "Santiago Maresca": {
+      "player_name": "Santiago Maresca",
+      "injuries": []
+    },
+    "Julio Cesar Campozano": {
+      "player_name": "Julio Cesar Campozano",
+      "injuries": []
+    },
+    "Emilio Gomez": {
+      "player_name": "Emilio Gomez",
+      "injuries": []
+    },
+    "Ricardo Rodriguez": {
+      "player_name": "Ricardo Rodriguez",
+      "injuries": []
+    },
+    "Somdev Devvarman": {
+      "player_name": "Somdev Devvarman",
+      "injuries": []
+    },
+    "Saketh Myneni": {
+      "player_name": "Saketh Myneni",
+      "injuries": []
+    },
+    "Joao Sousa": {
+      "player_name": "Joao Sousa",
+      "injuries": []
+    },
+    "Frederico Ferreira Silva": {
+      "player_name": "Frederico Ferreira Silva",
+      "injuries": []
+    },
+    "Andrej Martin": {
+      "player_name": "Andrej Martin",
+      "injuries": []
+    },
+    "Illya Marchenko": {
+      "player_name": "Illya Marchenko",
+      "injuries": []
+    },
+    "Gonzalo Lama": {
+      "player_name": "Gonzalo Lama",
+      "injuries": []
+    },
+    "Darian King": {
+      "player_name": "Darian King",
+      "injuries": []
+    },
+    "Jorge Aguilar": {
+      "player_name": "Jorge Aguilar",
+      "injuries": []
+    },
+    "Mirza Basic": {
+      "player_name": "Mirza Basic",
+      "injuries": []
+    },
+    "Markos Kalovelonis": {
+      "player_name": "Markos Kalovelonis",
+      "injuries": []
+    },
+    "Dzmitry Zhyrmont": {
+      "player_name": "Dzmitry Zhyrmont",
+      "injuries": []
+    },
+    "Egor Gerasimov": {
+      "player_name": "Egor Gerasimov",
+      "injuries": []
+    },
+    "John Morrissey": {
+      "player_name": "John Morrissey",
+      "injuries": []
+    },
+    "Mauricio Echazu": {
+      "player_name": "Mauricio Echazu",
+      "injuries": []
+    },
+    "Hugo Dellien": {
+      "player_name": "Hugo Dellien",
+      "injuries": [
+        {
+          "injury_name": "unspecified injury",
+          "body_location": "unknown",
+          "body_half": "unknown",
+          "joint_injury": false,
+          "acute_or_chronic": "unknown",
+          "injury_date": "2025-07",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://espndeportes.espn.com/tenis/nota/_/id/15479709/dellien-no-encontro-respuestas-y-se-marcho-rapidamente-del-masters-1000-de-toronto-marozsan"
+          ]
+        }
+      ]
+    },
+    "Sergio Galdos": {
+      "player_name": "Sergio Galdos",
+      "injuries": []
+    },
+    "Martin Pedersen": {
+      "player_name": "Martin Pedersen",
+      "injuries": []
+    },
+    "Frederik Nielsen": {
+      "player_name": "Frederik Nielsen",
+      "injuries": []
+    },
+    "Mikael Torpegaard": {
+      "player_name": "Mikael Torpegaard",
+      "injuries": []
+    },
+    "Petros Chrysochos": {
+      "player_name": "Petros Chrysochos",
+      "injuries": []
+    },
+    "Dimitar Kutrovsky": {
+      "player_name": "Dimitar Kutrovsky",
+      "injuries": []
+    },
+    "Tihomir Grozdanov": {
+      "player_name": "Tihomir Grozdanov",
+      "injuries": []
+    },
+    "Miguel Angel Reyes Varela": {
+      "player_name": "Miguel Angel Reyes Varela",
+      "injuries": []
+    },
+    "Christopher Diaz Figueroa": {
+      "player_name": "Christopher Diaz Figueroa",
+      "injuries": []
+    },
+    "Miguel Gallardo Valles": {
+      "player_name": "Miguel Gallardo Valles",
+      "injuries": []
+    },
+    "Mohammad Ghareeb": {
+      "player_name": "Mohammad Ghareeb",
+      "injuries": []
+    },
+    "Abdullah Maqdas": {
+      "player_name": "Abdullah Maqdas",
+      "injuries": []
+    },
+    "Aditya Hari Sasongko": {
+      "player_name": "Aditya Hari Sasongko",
+      "injuries": []
+    },
+    "Gilles Muller": {
+      "player_name": "Gilles Muller",
+      "injuries": []
+    },
+    "Hicham Khaddari": {
+      "player_name": "Hicham Khaddari",
+      "injuries": []
+    },
+    "Younes Rachidi": {
+      "player_name": "Younes Rachidi",
+      "injuries": []
+    },
+    "Mohamed Safwat": {
+      "player_name": "Mohamed Safwat",
+      "injuries": []
+    },
+    "Radu Albot": {
+      "player_name": "Radu Albot",
+      "injuries": []
+    },
+    "Maxim Dubarenco": {
+      "player_name": "Maxim Dubarenco",
+      "injuries": []
+    },
+    "Laurynas Grigelis": {
+      "player_name": "Laurynas Grigelis",
+      "injuries": []
+    },
+    "Ricardas Berankis": {
+      "player_name": "Ricardas Berankis",
+      "injuries": []
+    },
+    "Lukas Mugevicius": {
+      "player_name": "Lukas Mugevicius",
+      "injuries": []
+    },
+    "Mantas Bugailiskis": {
+      "player_name": "Mantas Bugailiskis",
+      "injuries": []
+    },
+    "Marcelo Arevalo": {
+      "player_name": "Marcelo Arevalo",
+      "injuries": []
+    },
+    "Rafael Arevalo": {
+      "player_name": "Rafael Arevalo",
+      "injuries": []
+    },
+    "Juan Carlos Ramirez": {
+      "player_name": "Juan Carlos Ramirez",
+      "injuries": []
+    },
+    "Juan Borba": {
+      "player_name": "Juan Borba",
+      "injuries": []
+    },
+    "Romain Arneodo": {
+      "player_name": "Romain Arneodo",
+      "injuries": []
+    },
+    "Nicolaas Scholtz": {
+      "player_name": "Nicolaas Scholtz",
+      "injuries": []
+    },
+    "Rik De Voest": {
+      "player_name": "Rik De Voest",
+      "injuries": []
+    },
+    "Harshana Godamanna": {
+      "player_name": "Harshana Godamanna",
+      "injuries": []
+    },
+    "Ruben Gonzales": {
+      "player_name": "Ruben Gonzales",
+      "injuries": []
+    },
+    "Treat Conrad Huey": {
+      "player_name": "Treat Conrad Huey",
+      "injuries": []
+    },
+    "Carlos Berlocq": {
+      "player_name": "Carlos Berlocq",
+      "injuries": []
+    },
+    "Robin Haase": {
+      "player_name": "Robin Haase",
+      "injuries": []
+    },
+    "Igor Sijsling": {
+      "player_name": "Igor Sijsling",
+      "injuries": []
+    },
+    "Frank Dancevic": {
+      "player_name": "Frank Dancevic",
+      "injuries": []
+    },
+    "Go Soeda": {
+      "player_name": "Go Soeda",
+      "injuries": []
+    },
+    "Mikhail Kukushkin": {
+      "player_name": "Mikhail Kukushkin",
+      "injuries": []
+    },
+    "Andrey Golubev": {
+      "player_name": "Andrey Golubev",
+      "injuries": []
+    },
+    "David Goffin": {
+      "player_name": "David Goffin",
+      "injuries": [
+        {
+          "injury_name": "right ankle injury",
+          "body_location": "right ankle",
+          "body_half": "bottom",
+          "joint_injury": true,
+          "acute_or_chronic": "acute",
+          "injury_date": "2025-04-24",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "yes",
+          "source_urls": [
+            "https://espndeportes.espn.com/tenis/nota/_/id/15092330/madrid-open-goffin-muller-primera-ronda-durisima-lesion-rival-raquetas-tenis-atp"
+          ]
+        }
+      ]
+    },
+    "Filip Krajinovic": {
+      "player_name": "Filip Krajinovic",
+      "injuries": []
+    },
+    "James Ward": {
+      "player_name": "James Ward",
+      "injuries": []
+    },
+    "Paul Henri Mathieu": {
+      "player_name": "Paul Henri Mathieu",
+      "injuries": []
+    },
+    "Albano Olivetti": {
+      "player_name": "Albano Olivetti",
+      "injuries": []
+    },
+    "Pierre Hugues Herbert": {
+      "player_name": "Pierre Hugues Herbert",
+      "injuries": []
+    },
+    "Marc Gicquel": {
+      "player_name": "Marc Gicquel",
+      "injuries": []
+    },
+    "Pablo Carreno Busta": {
+      "player_name": "Pablo Carreno Busta",
+      "injuries": [
+        {
+          "injury_name": "right elbow injury / tendinitis",
+          "body_location": "right elbow",
+          "body_half": "top",
+          "joint_injury": true,
+          "acute_or_chronic": "chronic",
+          "injury_date": "2023-02",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://espndeportes.espn.com/tenis/nota/_/id/12673031/carreno-busta-volvio-al-circuito-tras-ocho-meses-de-inactividad",
+            "https://espndeportes.espn.com/tenis/nota/_/id/14006104/atp-masters-1000-montreal-pablo-carreno-busta-posible-retiro-primer-triunfo-en-20-meses"
+          ]
+        }
+      ]
+    },
+    "Martin Alund": {
+      "player_name": "Martin Alund",
+      "injuries": []
+    },
+    "Taro Daniel": {
+      "player_name": "Taro Daniel",
+      "injuries": []
+    },
+    "Federico Delbonis": {
+      "player_name": "Federico Delbonis",
+      "injuries": []
+    },
+    "Paolo Lorenzi": {
+      "player_name": "Paolo Lorenzi",
+      "injuries": []
+    },
+    "Daniel Gimeno Traver": {
+      "player_name": "Daniel Gimeno Traver",
+      "injuries": []
+    },
+    "Nicolas Almagro": {
+      "player_name": "Nicolas Almagro",
+      "injuries": []
+    },
+    "Andrey Kuznetsov": {
+      "player_name": "Andrey Kuznetsov",
+      "injuries": []
+    },
+    "Daniel Evans": {
+      "player_name": "Daniel Evans",
+      "injuries": []
+    },
+    "Bjorn Phau": {
+      "player_name": "Bjorn Phau",
+      "injuries": []
+    },
+    "Tommy Haas": {
+      "player_name": "Tommy Haas",
+      "injuries": []
+    },
+    "Filippo Volandri": {
+      "player_name": "Filippo Volandri",
+      "injuries": []
+    },
+    "Guido Pella": {
+      "player_name": "Guido Pella",
+      "injuries": [
+        {
+          "injury_name": "chronic right-knee injury",
+          "body_location": "right knee",
+          "body_half": "bottom",
+          "joint_injury": true,
+          "acute_or_chronic": "chronic",
+          "injury_date": "2021-10",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/pella-retirement-tribute-2023"
+          ]
+        }
+      ]
+    },
+    "Ryan Harrison": {
+      "player_name": "Ryan Harrison",
+      "injuries": []
+    },
+    "Alex Bogomolov Jr": {
+      "player_name": "Alex Bogomolov Jr",
+      "injuries": []
+    },
+    "Marcos Baghdatis": {
+      "player_name": "Marcos Baghdatis",
+      "injuries": []
+    },
+    "Tim Smyczek": {
+      "player_name": "Tim Smyczek",
+      "injuries": []
+    },
+    "Michael Russell": {
+      "player_name": "Michael Russell",
+      "injuries": []
+    },
+    "Alex Kuznetsov": {
+      "player_name": "Alex Kuznetsov",
+      "injuries": []
+    },
+    "Denis Kudla": {
+      "player_name": "Denis Kudla",
+      "injuries": []
+    },
+    "Phillip King": {
+      "player_name": "Phillip King",
+      "injuries": []
+    },
+    "Wishaya Trongcharoenchaikul": {
+      "player_name": "Wishaya Trongcharoenchaikul",
+      "injuries": []
+    },
+    "Pruchya Isarow": {
+      "player_name": "Pruchya Isarow",
+      "injuries": []
+    },
+    "Nutthanon Kadchapanan": {
+      "player_name": "Nutthanon Kadchapanan",
+      "injuries": []
+    },
+    "Aqeel Khan": {
+      "player_name": "Aqeel Khan",
+      "injuries": []
+    },
+    "Thien Nguyen Hoang": {
+      "player_name": "Thien Nguyen Hoang",
+      "injuries": []
+    },
+    "Linh Giang Trinh": {
+      "player_name": "Linh Giang Trinh",
+      "injuries": []
+    },
+    "Rhyne Williams": {
+      "player_name": "Rhyne Williams",
+      "injuries": []
+    },
+    "Jan Lennard Struff": {
+      "player_name": "Jan Lennard Struff",
+      "injuries": [
+        {
+          "injury_name": "hip injury",
+          "body_location": "hip",
+          "body_half": "bottom",
+          "joint_injury": true,
+          "acute_or_chronic": "unknown",
+          "injury_date": "2023-06",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "about 6-12 weeks",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://www.atptour.com/en/news/struff-rotterdam-2024-feature"
+          ]
+        }
+      ]
+    },
+    "Michael Llodra": {
+      "player_name": "Michael Llodra",
+      "injuries": []
+    },
+    "Albert Montanes": {
+      "player_name": "Albert Montanes",
+      "injuries": []
+    },
+    "Facundo Bagnis": {
+      "player_name": "Facundo Bagnis",
+      "injuries": []
+    },
+    "Pablo Cuevas": {
+      "player_name": "Pablo Cuevas",
+      "injuries": [
+        {
+          "injury_name": "left knee injury",
+          "body_location": "left knee",
+          "body_half": "bottom",
+          "joint_injury": true,
+          "acute_or_chronic": "chronic",
+          "injury_date": "2021-09-30",
+          "tennis_related": "yes",
+          "estimated_recovery_time": "unknown",
+          "retired_during_match_due_to_injury": "no",
+          "source_urls": [
+            "https://espndeportes.espn.com/tenis/nota/_/id/9287091/pablo-cuevas-se-sometio-a-una-artroscopia-en-brasil-atp-tenis-profesional-uruguay"
+          ]
+        }
+      ]
+    }
+  }
+}
