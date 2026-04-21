@@ -58,7 +58,7 @@
   <rect x="0" y="0" width="1400" height="1860" fill="url(#bg)"/>
 
   <text x="700" y="58" text-anchor="middle" class="title">How the CSV Format Was Determined</text>
-  <text x="700" y="88" text-anchor="middle" class="subtitle">The goal was to mirror the model scripts' expectations without changing the model code.</text>
+  <text x="700" y="88" text-anchor="middle" class="subtitle">The goal was to mirror the model scripts' expectations, while making selection and missing-data rules explicit.</text>
 
   <rect x="80" y="120" width="1240" height="110" fill="#ffffff" opacity="0.72" rx="28" ry="28" stroke="#d8e0e7"/>
   <text x="110" y="160" class="section">Guiding Rule</text>
@@ -67,7 +67,7 @@
 
   <rect x="420" y="280" width="560" height="108" fill="url(#contractBox)" class="box"/>
   <text x="700" y="320" text-anchor="middle" class="label">1. Use the Existing Model Scripts as the Contract</text>
-  <text x="700" y="348" text-anchor="middle" class="body">Inspect Models 3, 4, and 5 to see which columns and feature groups they already expect.</text>
+  <text x="700" y="348" text-anchor="middle" class="body">Inspect Models 1 through 5 to see the baseline columns, improved features, and later enrichment groups they expect.</text>
   <text x="700" y="370" text-anchor="middle" class="small">Examples: rank_diff, surf_win_rate_diff, first_serve_pct_diff, injury flags, playstyle labels.</text>
 
   <path d="M700 388 L700 442" class="arrow"/>
@@ -88,8 +88,8 @@
   <text x="96" y="852" class="body">These depend on chronology and prior matches:</text>
   <text x="110" y="882" class="body">- Elo and surface Elo</text>
   <text x="110" y="908" class="body">- Rolling short/long form</text>
-  <text x="110" y="934" class="body">- Head-to-head rate and count</text>
-  <text x="110" y="960" class="body">- Days rest and experience</text>
+  <text x="110" y="934" class="body">- H2H rate/count, with 0.5 before any meetings</text>
+  <text x="110" y="960" class="body">- Days rest and experience, with cold-start defaults</text>
   <text x="96" y="994" class="small">Reason: these are recomputed in time order inside the</text>
   <text x="96" y="1014" class="small">model pipeline, so they should not be frozen statically.</text>
 
@@ -101,8 +101,8 @@
 
   <rect x="930" y="830" width="400" height="112" fill="url(#mainBox)" class="box"/>
   <text x="1130" y="868" text-anchor="middle" class="label">4. Clean Core Match Fields First</text>
-  <text x="1130" y="896" text-anchor="middle" class="body">Standardize dates, lowercase text categories, and convert `-1`</text>
-  <text x="1130" y="918" text-anchor="middle" class="body">to missing values for ranks, points, and odds.</text>
+  <text x="1130" y="896" text-anchor="middle" class="body">Standardize dates and lowercase text categories. Convert `-1`</text>
+  <text x="1130" y="918" text-anchor="middle" class="body">to missing values, then either keep NULL or apply a clear domain default.</text>
 
   <path d="M1130 942 L1130 994" class="arrow-green"/>
 
@@ -119,8 +119,8 @@
 
   <rect x="540" y="1260" width="320" height="112" fill="url(#mainBox)" class="box"/>
   <text x="700" y="1296" text-anchor="middle" class="label">ATP Match History</text>
-  <text x="700" y="1324" text-anchor="middle" class="body">Derive player attributes and</text>
-  <text x="700" y="1346" text-anchor="middle" class="body">serve/return profile averages.</text>
+  <text x="700" y="1324" text-anchor="middle" class="body">Derive median height, birth year, handedness,</text>
+  <text x="700" y="1346" text-anchor="middle" class="body">and serve/return profile averages.</text>
 
   <rect x="900" y="1260" width="320" height="112" fill="url(#mainBox)" class="box"/>
   <text x="1060" y="1296" text-anchor="middle" class="label">Surface Results</text>
@@ -148,25 +148,25 @@
   <rect x="450" y="1706" width="860" height="116" fill="url(#csvBox)" class="box"/>
   <text x="880" y="1744" text-anchor="middle" class="label">7. Format the Output as a Wide, Model-Ready Match Table</text>
   <text x="880" y="1772" text-anchor="middle" class="body">One row per match, with `p1_` and `p2_` columns, a `label`, static diff columns,</text>
-  <text x="880" y="1794" text-anchor="middle" class="body">and coverage flags like `serve_coverage`, `playstyle_coverage`, and `injury_coverage`.</text>
+  <text x="880" y="1794" text-anchor="middle" class="body">and explicit defaults or coverage flags like `serve_coverage`, `playstyle_coverage`, and `injury_coverage`.</text>
 
   <rect x="80" y="1080" width="360" height="260" fill="url(#modelBox)" class="box"/>
   <text x="260" y="1120" text-anchor="middle" class="label">Final Handoff to the Model</text>
   <text x="106" y="1160" class="body">The new CSV handles the static formatting work.</text>
   <text x="106" y="1188" class="body">Then the existing models still do their own:</text>
   <text x="120" y="1218" class="body">- chronological feature generation</text>
-  <text x="120" y="1244" class="body">- median imputation for numeric fields</text>
-  <text x="120" y="1270" class="body">- standardization of numeric features</text>
+  <text x="120" y="1244" class="body">- domain defaults such as 0, 0.5, or 30 where intended</text>
+  <text x="120" y="1270" class="body">- median imputation and scaling for numeric fields</text>
   <text x="120" y="1296" class="body">- one-hot encoding for categorical features</text>
-  <text x="106" y="1328" class="small">This is why the CSV is wide and clean, but not responsible for</text>
-  <text x="106" y="1348" class="small">Elo, rolling form, or other sequence-dependent state.</text>
+  <text x="106" y="1328" class="small">This is why the CSV is wide and clean, but still leaves chronology,</text>
+  <text x="106" y="1348" class="small">Elo, rolling form, and true model-time imputation to Python.</text>
 
   <path d="M450 1764 L260 1764 L260 1346" class="arrow"/>
 
   <rect x="92" y="1460" width="336" height="128" class="pill"/>
-  <text x="260" y="1494" text-anchor="middle" class="label">Key Selection Logic</text>
-  <text x="116" y="1524" class="small">1. Read the model feature lists first.</text>
-  <text x="116" y="1546" class="small">2. Match each feature to its source.</text>
-  <text x="116" y="1568" class="small">3. Keep static joins in the CSV.</text>
-  <text x="116" y="1590" class="small">4. Keep time-dependent logic in Python.</text>
+  <text x="260" y="1494" text-anchor="middle" class="label">Default and Missing Rules</text>
+  <text x="116" y="1524" class="small">1. Drop rows missing core date or rank fields.</text>
+  <text x="116" y="1546" class="small">2. Convert source sentinels like `-1` into NULL.</text>
+  <text x="116" y="1568" class="small">3. Use defaults only when the meaning is clear.</text>
+  <text x="116" y="1590" class="small">4. Otherwise keep blanks for later model imputation.</text>
 </svg>
