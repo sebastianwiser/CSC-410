@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1400" height="1860" viewBox="0 0 1400 1860" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">How the consolidated CSV format was determined</title>
+  <desc id="desc">A flowchart showing how the model scripts were inspected, which features were kept in the CSV versus left in the model pipeline, and how the final wide CSV was formatted for model input.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4efe4"/>
+      <stop offset="100%" stop-color="#e7efe8"/>
+    </linearGradient>
+    <linearGradient id="mainBox" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f6f8fb"/>
+    </linearGradient>
+    <linearGradient id="contractBox" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eaf3ff"/>
+      <stop offset="100%" stop-color="#dce9ff"/>
+    </linearGradient>
+    <linearGradient id="csvBox" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#edf8ef"/>
+      <stop offset="100%" stop-color="#daf0df"/>
+    </linearGradient>
+    <linearGradient id="modelBox" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff3e0"/>
+      <stop offset="100%" stop-color="#fde3be"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#243447" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#4d5b6a"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#2d7b4f"/>
+    </marker>
+    <marker id="arrowOrange" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#b06b16"/>
+    </marker>
+    <style>
+      .title { font: 700 30px 'Avenir Next', 'Segoe UI', sans-serif; fill: #243447; }
+      .subtitle { font: 500 16px 'Avenir Next', 'Segoe UI', sans-serif; fill: #5a6875; }
+      .section { font: 700 18px 'Avenir Next', 'Segoe UI', sans-serif; fill: #243447; }
+      .label { font: 700 16px 'Avenir Next', 'Segoe UI', sans-serif; fill: #243447; }
+      .body { font: 500 14px 'Avenir Next', 'Segoe UI', sans-serif; fill: #344251; }
+      .small { font: 500 13px 'Avenir Next', 'Segoe UI', sans-serif; fill: #425161; }
+      .yesno { font: 700 13px 'Avenir Next', 'Segoe UI', sans-serif; }
+      .yes { fill: #2d7b4f; }
+      .no { fill: #b06b16; }
+      .box { stroke: #cfd7df; stroke-width: 1.5; rx: 24; ry: 24; filter: url(#shadow); }
+      .arrow { fill: none; stroke: #4d5b6a; stroke-width: 3; marker-end: url(#arrow); }
+      .arrow-green { fill: none; stroke: #2d7b4f; stroke-width: 3; marker-end: url(#arrowGreen); }
+      .arrow-orange { fill: none; stroke: #b06b16; stroke-width: 3; marker-end: url(#arrowOrange); }
+      .diamond { fill: #ffffff; stroke: #b9c4cf; stroke-width: 2; filter: url(#shadow); }
+      .pill { fill: #ffffff; stroke: #d8e0e7; stroke-width: 1.3; rx: 14; ry: 14; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1400" height="1860" fill="url(#bg)"/>
+
+  <text x="700" y="58" text-anchor="middle" class="title">How the CSV Format Was Determined</text>
+  <text x="700" y="88" text-anchor="middle" class="subtitle">The goal was to mirror the model scripts' expectations without changing the model code.</text>
+
+  <rect x="80" y="120" width="1240" height="110" fill="#ffffff" opacity="0.72" rx="28" ry="28" stroke="#d8e0e7"/>
+  <text x="110" y="160" class="section">Guiding Rule</text>
+  <text x="110" y="190" class="body">If a feature was static and joinable from existing files, it belonged in the consolidated CSV.</text>
+  <text x="110" y="214" class="body">If a feature depended on match order or evolving history, it stayed inside the model pipeline.</text>
+
+  <rect x="420" y="280" width="560" height="108" fill="url(#contractBox)" class="box"/>
+  <text x="700" y="320" text-anchor="middle" class="label">1. Use the Existing Model Scripts as the Contract</text>
+  <text x="700" y="348" text-anchor="middle" class="body">Inspect Models 3, 4, and 5 to see which columns and feature groups they already expect.</text>
+  <text x="700" y="370" text-anchor="middle" class="small">Examples: rank_diff, surf_win_rate_diff, first_serve_pct_diff, injury flags, playstyle labels.</text>
+
+  <path d="M700 388 L700 442" class="arrow"/>
+
+  <polygon points="700,442 850,540 700,638 550,540" class="diamond"/>
+  <text x="700" y="526" text-anchor="middle" class="label">2. Can this feature be determined</text>
+  <text x="700" y="548" text-anchor="middle" class="label">from static per-match or per-player data?</text>
+  <text x="700" y="576" text-anchor="middle" class="small">Or does it require time-ordered match history?</text>
+
+  <text x="888" y="520" class="yesno yes">YES - put it in the CSV</text>
+  <text x="262" y="520" class="yesno no">NO - leave it in the model</text>
+
+  <path d="M550 540 L250 540 L250 770" class="arrow-orange"/>
+  <path d="M850 540 L1130 540 L1130 690" class="arrow-green"/>
+
+  <rect x="70" y="770" width="360" height="230" fill="url(#modelBox)" class="box"/>
+  <text x="250" y="812" text-anchor="middle" class="label">Keep Dynamic Features in the Model Code</text>
+  <text x="96" y="852" class="body">These depend on chronology and prior matches:</text>
+  <text x="110" y="882" class="body">- Elo and surface Elo</text>
+  <text x="110" y="908" class="body">- Rolling short/long form</text>
+  <text x="110" y="934" class="body">- Head-to-head rate and count</text>
+  <text x="110" y="960" class="body">- Days rest and experience</text>
+  <text x="96" y="994" class="small">Reason: these are recomputed in time order inside the</text>
+  <text x="96" y="1014" class="small">model pipeline, so they should not be frozen statically.</text>
+
+  <rect x="930" y="690" width="400" height="88" fill="url(#csvBox)" class="box"/>
+  <text x="1130" y="728" text-anchor="middle" class="label">3. Anchor the CSV on the Match Table</text>
+  <text x="1130" y="754" text-anchor="middle" class="body">Use `data/processed/atp_tennis.csv` as the base row set.</text>
+
+  <path d="M1130 778 L1130 830" class="arrow-green"/>
+
+  <rect x="930" y="830" width="400" height="112" fill="url(#mainBox)" class="box"/>
+  <text x="1130" y="868" text-anchor="middle" class="label">4. Clean Core Match Fields First</text>
+  <text x="1130" y="896" text-anchor="middle" class="body">Standardize dates, lowercase text categories, and convert `-1`</text>
+  <text x="1130" y="918" text-anchor="middle" class="body">to missing values for ranks, points, and odds.</text>
+
+  <path d="M1130 942 L1130 994" class="arrow-green"/>
+
+  <rect x="930" y="994" width="400" height="140" fill="url(#mainBox)" class="box"/>
+  <text x="1130" y="1032" text-anchor="middle" class="label">5. Solve the Name-Matching Problem</text>
+  <text x="1130" y="1060" text-anchor="middle" class="body">Processed matches use ATP-style abbreviated names, while</text>
+  <text x="1130" y="1082" text-anchor="middle" class="body">other sources use full names.</text>
+  <text x="1130" y="1110" text-anchor="middle" class="small">Decision: normalize text and build ATP alias keys like `last f`</text>
+
+  <path d="M1130 1134 L1130 1188" class="arrow-green"/>
+
+  <rect x="500" y="1188" width="760" height="430" fill="#ffffff" opacity="0.82" rx="30" ry="30" stroke="#d8e0e7"/>
+  <text x="530" y="1230" class="section">6. Pull in Only the Static Sources the Models Already Use</text>
+
+  <rect x="540" y="1260" width="320" height="112" fill="url(#mainBox)" class="box"/>
+  <text x="700" y="1296" text-anchor="middle" class="label">ATP Match History</text>
+  <text x="700" y="1324" text-anchor="middle" class="body">Derive player attributes and</text>
+  <text x="700" y="1346" text-anchor="middle" class="body">serve/return profile averages.</text>
+
+  <rect x="900" y="1260" width="320" height="112" fill="url(#mainBox)" class="box"/>
+  <text x="1060" y="1296" text-anchor="middle" class="label">Surface Results</text>
+  <text x="1060" y="1324" text-anchor="middle" class="body">Use win_rate plus surface</text>
+  <text x="1060" y="1346" text-anchor="middle" class="body">match count as static history.</text>
+
+  <rect x="540" y="1400" width="320" height="112" fill="url(#mainBox)" class="box"/>
+  <text x="700" y="1436" text-anchor="middle" class="label">Serve CSVs</text>
+  <text x="700" y="1464" text-anchor="middle" class="body">Average duplicate players and map</text>
+  <text x="700" y="1486" text-anchor="middle" class="body">to `p1_fsp`, `p1_fswp`, `p1_sswp`, etc.</text>
+
+  <rect x="900" y="1400" width="320" height="112" fill="url(#mainBox)" class="box"/>
+  <text x="1060" y="1436" text-anchor="middle" class="label">Playstyle JSON</text>
+  <text x="1060" y="1464" text-anchor="middle" class="body">Flatten to one style per player,</text>
+  <text x="1060" y="1486" text-anchor="middle" class="body">plus matchup and pair labels.</text>
+
+  <rect x="720" y="1540" width="320" height="112" fill="url(#mainBox)" class="box"/>
+  <text x="880" y="1576" text-anchor="middle" class="label">Injury JSON</text>
+  <text x="880" y="1604" text-anchor="middle" class="body">Parse dates and recovery text, then build</text>
+  <text x="880" y="1626" text-anchor="middle" class="body">pre-match injury snapshots per player.</text>
+
+  <path d="M1130 1188 L1130 1228" class="arrow-green"/>
+  <path d="M880 1652 L880 1706" class="arrow-green"/>
+
+  <rect x="450" y="1706" width="860" height="116" fill="url(#csvBox)" class="box"/>
+  <text x="880" y="1744" text-anchor="middle" class="label">7. Format the Output as a Wide, Model-Ready Match Table</text>
+  <text x="880" y="1772" text-anchor="middle" class="body">One row per match, with `p1_` and `p2_` columns, a `label`, static diff columns,</text>
+  <text x="880" y="1794" text-anchor="middle" class="body">and coverage flags like `serve_coverage`, `playstyle_coverage`, and `injury_coverage`.</text>
+
+  <rect x="80" y="1080" width="360" height="260" fill="url(#modelBox)" class="box"/>
+  <text x="260" y="1120" text-anchor="middle" class="label">Final Handoff to the Model</text>
+  <text x="106" y="1160" class="body">The new CSV handles the static formatting work.</text>
+  <text x="106" y="1188" class="body">Then the existing models still do their own:</text>
+  <text x="120" y="1218" class="body">- chronological feature generation</text>
+  <text x="120" y="1244" class="body">- median imputation for numeric fields</text>
+  <text x="120" y="1270" class="body">- standardization of numeric features</text>
+  <text x="120" y="1296" class="body">- one-hot encoding for categorical features</text>
+  <text x="106" y="1328" class="small">This is why the CSV is wide and clean, but not responsible for</text>
+  <text x="106" y="1348" class="small">Elo, rolling form, or other sequence-dependent state.</text>
+
+  <path d="M450 1764 L260 1764 L260 1346" class="arrow"/>
+
+  <rect x="92" y="1460" width="336" height="128" class="pill"/>
+  <text x="260" y="1494" text-anchor="middle" class="label">Key Selection Logic</text>
+  <text x="116" y="1524" class="small">1. Read the model feature lists first.</text>
+  <text x="116" y="1546" class="small">2. Match each feature to its source.</text>
+  <text x="116" y="1568" class="small">3. Keep static joins in the CSV.</text>
+  <text x="116" y="1590" class="small">4. Keep time-dependent logic in Python.</text>
+</svg>

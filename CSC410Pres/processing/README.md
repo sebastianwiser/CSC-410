@@ -4,6 +4,9 @@
 
 It is designed for the SQLite CLI. The script uses SQLite import/export dot-commands for CSV files and SQLite JSON functions for the report files.
 
+There is also a visual summary of the formatting decision process in
+`csv_formatting_decision_flow.svg`.
+
 ## What It Builds
 
 Running the script writes:
