@@ -1,0 +1,9 @@
+{
+  "bookmaker_benchmark": "Skipped: Tennis-Data download index returned HTTP Forbidden. Supplied processed odds were not independently re-downloaded or provenance-verified.",
+  "docker_build": "Not run: Docker CLI is absent. Dockerfile supplied; Python API smoke tests passed.",
+  "github_hosted_actions": "Workflow supplied; hosted execution not verified because this branch has not been pushed.",
+  "submodule_source_recovery": "Empty gitlinks had no .gitmodules remote URLs. Commit IDs preserved in legacy/submodules.json; source contents remain unavailable.",
+  "legacy_leakage_fix": "Deliberately excluded: changing original feature/model logic is prohibited. Full-period lookups and same-date history risks are documented; additive historical model is separately tested.",
+  "failed_attempts": "Initial legacy adapters failed before prediction because metadata duplicated surface columns; adapter fixed, original scripts unchanged. Initial SHAP sample exceeded a small surface cohort; bounded sampling fixed it.",
+  "upstream_source_license": "Upstream revision/license and LLM prompts/generation dates were not recoverable from checked-in CSVs alone. SHA256 inventory records local inputs, not upstream authenticity."
+}
