@@ -1,0 +1,8 @@
+{
+  "run_count": 53,
+  "status_counts": {
+    "FINISHED": 47,
+    "FAILED": 6
+  },
+  "note": "Includes failed pre-prediction adapter attempts. Validation records are logged from saved training-only fold outputs."
+}
