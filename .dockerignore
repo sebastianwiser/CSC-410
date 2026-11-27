@@ -1,0 +1,6 @@
+.git
+.venv
+mlruns
+CSC410Pres
+legacy
+results/cache
