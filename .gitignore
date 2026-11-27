@@ -208,3 +208,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Portfolio: local metadata and reproducible runtime outputs
+.DS_Store
+.idea/
+mlruns/
+mlartifacts/
+results/artifacts/
+results/cache/
+*.sqlite
+legacy/prior-results/

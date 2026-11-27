@@ -1,0 +1,402 @@
+[
+  {
+    "player_name": "Jarkko Nieminen",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "Marinko Matosevic",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Sam Querrey",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Sam Groth",
+    "play_style": "Serve-and-Volleyer"
+  },
+  {
+    "player_name": "Nicolas Mahut",
+    "play_style": "Serve-and-Volleyer"
+  },
+  {
+    "player_name": "Jeremy Chardy",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Feliciano Lopez",
+    "play_style": "Serve-and-Volleyer"
+  },
+  {
+    "player_name": "Lleyton Hewitt",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "Marius Copil",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Grigor Dimitrov",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Marin Cilic",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Matthew Ebden",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Roger Federer",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Kei Nishikori",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "Benjamin Becker",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Aljaz Bedene",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Alexander Kudryavtsev",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Yuki Bhambri",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "Yen Hsun Lu",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Vasek Pospisil",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Marcel Granollers",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Ramkumar Ramanathan",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Guillermo Garcia Lopez",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Edouard Roger-Vasselin",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Jiri Vesely",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Dudi Sela",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "Stan Wawrinka",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Benoit Paire",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Rafael Nadal",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Tobias Kamke",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Lukasz Kubot",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Ernests Gulbis",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Ivo Karlovic",
+    "play_style": "Serve-and-Volleyer"
+  },
+  {
+    "player_name": "Dustin Brown",
+    "play_style": "Serve-and-Volleyer"
+  },
+  {
+    "player_name": "Peter Gojowczyk",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Philipp Kohlschreiber",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Fernando Verdasco",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Victor Hanescu",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Florian Mayer",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Andy Murray",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "Richard Gasquet",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Gael Monfils",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Daniel Brands",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "David Ferrer",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "Donald Young",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Santiago Giraldo",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Steve Johnson",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Bradley Klahn",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Horacio Zeballos",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Lukas Lacko",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Roberto Bautista Agut",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "Jack Sock",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "John Isner",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Radek Stepanek",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Albert Ramos",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "Lukas Rosol",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Denis Istomin",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Julien Benneteau",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Sergiy Stakhovsky",
+    "play_style": "Serve-and-Volleyer"
+  },
+  {
+    "player_name": "Bernard Tomic",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Blaz Kavcic",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Alexandr Dolgopolov",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Juan Martin del Potro",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Dmitry Tursunov",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Thanasi Kokkinakis",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Andreas Seppi",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Dusan Lajovic",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "Milos Raonic",
+    "play_style": "Serve-and-Volleyer"
+  },
+  {
+    "player_name": "Nick Kyrgios",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Vincent Millot",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Michael Berrer",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Stephane Robert",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Michal Przysiezny",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Blaz Rola",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Martin Klizan",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Jo-Wilfried Tsonga",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Thomaz Bellucci",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Gilles Simon",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "Teymuraz Gabashvili",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Tomas Berdych",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Kenny De Schepper",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Damir Dzumhur",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Ivan Dodig",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Kevin Anderson",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Dominic Thiem",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Mikhail Youzhny",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Pablo Andujar",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Jerzy Janowicz",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Adrian Mannarino",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Alejandro Falla",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "Tommy Robredo",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "Nikolay Davydenko",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "Fabio Fognini",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Leonardo Mayer",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Novak Djokovic",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Di Wu",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Ze Zhang",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Jose Hernandez",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Victor Estrella",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "Jose Olivares",
+    "play_style": "Aggressive Baseliner"
+  }
+]

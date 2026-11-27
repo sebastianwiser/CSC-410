@@ -1,0 +1,402 @@
+[
+  {
+    "player_name": "Juan Monaco",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "Malek Jaziri",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Potito Starace",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Rogerio Dutra Silva",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Andreas Haider Maurer",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "Joao Souza",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Alejandro Gonzalez",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Evgeny Donskoy",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Thiemo De Bakker",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Farrukh Dustov",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Peter Bertran",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Juan Sebastian Cabal",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Yong Kyu Lim",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Borna Coric",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "Amir Weintraub",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Norbert Gombos",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Cristian Garin",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Alexandros Jakupovic",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "James Mcgee",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Mazen Osama",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Sergis Kyratzis",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Lamine Ouahab",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Ayoub Chakrouni",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Benjamin Balleret",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Minh Quan Do",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Seanon Williams",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Duilio Beretta",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Patrick Tierro",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Aisam Ul Haq Qureshi",
+    "play_style": "Serve-and-Volleyer"
+  },
+  {
+    "player_name": "Warit Sornbutnark",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Filip Peliwo",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Aleksandr Nedovyesov",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Roberto Carballes Baena",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "Jurgen Melzer",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Inigo Cervantes Huegun",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Adrian Ungur",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Christopher Rungkat",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Ognian Kolev",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Gastao Elias",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Rui Machado",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Pere Riba",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Simone Bolelli",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Mate Delic",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Jason Kubler",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Nikola Milojevic",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Jurgen Zopp",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Axel Michon",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Diego Schwartzman",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "James Duckworth",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Mate Pavic",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Jesse Huta Galung",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Jimmy Wang",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Jan Hernych",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "Tim Puetz",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Luke Saville",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Julian Reister",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Ante Pavic",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Elias Ymer",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Christian Lindell",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Renzo Olivo",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Austin Krajicek",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Rajeev Ram",
+    "play_style": "Serve-and-Volleyer"
+  },
+  {
+    "player_name": "Tatsuma Ito",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Philip Davydenko",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Louk Sorensen",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Yann Marti",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Peter Polansky",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Alexander Zverev",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Robby Ginepri",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Henri Laaksonen",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Viktor Troicki",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Maximo Gonzalez",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Matthias Bachinger",
+    "play_style": "Serve-and-Volleyer"
+  },
+  {
+    "player_name": "Martin Fischer",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Andrey Rublev",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Hyeon Chung",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "Martin Cuevas",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Rodrigo Senattore",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Tigre Hank",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Haydn Lewis",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Nerman Fatic",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Danai Udomchoke",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Samir Iftikhar",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Philipp Petzschner",
+    "play_style": "Serve-and-Volleyer"
+  },
+  {
+    "player_name": "Chuhan Wang",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Lucas Pouille",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Yuichi Sugita",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "Kyle Edmund",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Jeevan Nedunchezhiyan",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Mousa Shanan Zayed",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "Karim Hossam",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Jose Rubin Statham",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Wayne Odesnik",
+    "play_style": "Counterpuncher"
+  },
+  {
+    "player_name": "Jan Hajek",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Jordan Thompson",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "David Guez",
+    "play_style": "Aggressive Baseliner"
+  },
+  {
+    "player_name": "Michael Venus",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "Ariel Behar",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "William Kirkman",
+    "play_style": "All-Court Player"
+  },
+  {
+    "player_name": "David Souto",
+    "play_style": "Aggressive Baseliner"
+  }
+]
