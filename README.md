@@ -4,7 +4,7 @@ A school project exploring how historical tennis results and AI-assisted data co
 
 **[View the class presentation](docs/presentation.pdf)** · [Follow the presentation through the code](docs/presentation-guide.md) · [Read the reproduced results](docs/results.md)
 
-[TEAM NOTE: who built what]
+**Team project:** Collaborative coursework for CSC 410.
 
 ## The project story
 
