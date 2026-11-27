@@ -163,10 +163,11 @@ The API validates finite ranges, distinct players and asserted history chronolog
               '- `safe_comparisons.json`: same-source paired extension comparisons against untuned XGBoost.',
               '- `validation.json`, `tuning_details.json`, `tuning_trials.csv`: all executed training fold scores, counts, trial values and parameters.',
               '- `serve_audit.json`, `serve_audit_players.csv`: final per-stat errors/correlations/coverage and player-level disagreements, without a ranking filter. The initial rank-complete audit is retained under legacy/audits/.',
-              '- `shap_importance.csv`, `shap_metadata.json`: global/per-surface mean absolute attribution and sample sizes.',
+              '- `shap_importance.csv`, `shap_metadata.json`: final global/per-surface mean absolute attribution and sample sizes; earlier winner-oriented stratified sample retained in legacy/shap/.',
               '- `mlflow_runs.csv`, `runs/`: run parameters, measured metrics, elapsed times and statuses.',
               '- `point_in_time_provenance.csv`, `alignment.csv`: historical-date bounds and source linkage dates/counts.',
-              '- `environment.json`, `tests.xml`, `data_sha256.json`: runtime, duplicate checks, test results, local input hashes.', '',
+              '- `environment.json`, `tests.xml`, `data_sha256.json`: runtime, duplicate checks, test results, local input hashes.',
+              '- `reproduction_check.json`: tracked-files-only reproduction, training-only artifact rebuild, and unchanged saved metrics.', '',
               f"MLflow contains {mlflow['run_count']} logged runs: {mlflow['status_counts']}. Failed adapter attempts occurred before holdout prediction.",
               '', '## Skipped or unverified', '']
     lines += [f'- **{key}**: {reason}' for key, reason in skips.items()]
