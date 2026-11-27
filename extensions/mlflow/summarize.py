@@ -51,7 +51,7 @@ def main():
            {'material_player_fraction': audit['material_player_fraction'], 'matched_players': audit['matched_players'],
             **{f'{s}_{k}': v for s, d in audit['stats'].items() for k, v in d.items()}},
            [RESULTS/'serve_audit.json', RESULTS/'serve_audit_players.csv'])
-    record('selected_model_shap', {'model': config['selected'], 'period': 'training only'}, {},
+    record('selected_model_shap_balanced_orientation', {'model': config['selected'], 'period': 'training only'}, {},
            [RESULTS/'shap_metadata.json', RESULTS/'shap_importance.csv', RESULTS/'shap.md'])
     # Enrich final-fit records from fitted estimator parameters, without prediction.
     client = mlflow.tracking.MlflowClient()
