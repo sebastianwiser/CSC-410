@@ -28,4 +28,4 @@ The [SQLite preparation work](../CSC410Pres/processing/README.md) is a companion
 - Chronologically splitting train and test data does not, by itself, make full-period static lookups safe. The reproduced scores preserve those limitations.
 - Feature importance describes how a fitted model uses its inputs. It does not prove that an AI-generated category is accurate or that the category causes a player to win. Accuracy also does not establish positive betting returns.
 
-[TEAM NOTE: who built what]
+**Team project:** Collaborative coursework for CSC 410.
