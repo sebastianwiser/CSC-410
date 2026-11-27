@@ -1,0 +1,29 @@
+{
+  "scope": "all available valid ATP serve-stat rows; no ranking-completeness filter",
+  "threshold_percentage_points": 5.0,
+  "supplied_rows": 1262,
+  "matched_rows": 1094,
+  "matched_players": 1094,
+  "supplied_players": 1262,
+  "material_player_fraction": 0.6325411334552102,
+  "stats": {
+    "first_serve_pct": {
+      "n_rows": 1094,
+      "mae_percentage_points": 4.303340248044781,
+      "pearson_correlation": 0.21728637684297358,
+      "material_fraction": 0.3235831809872029
+    },
+    "first_serve_win_pct": {
+      "n_rows": 1094,
+      "mae_percentage_points": 5.185134575128969,
+      "pearson_correlation": 0.5254706465749304,
+      "material_fraction": 0.360146252285192
+    },
+    "second_serve_win_pct": {
+      "n_rows": 1094,
+      "mae_percentage_points": 5.354824605011528,
+      "pearson_correlation": 0.3593014915917133,
+      "material_fraction": 0.3692870201096892
+    }
+  }
+}

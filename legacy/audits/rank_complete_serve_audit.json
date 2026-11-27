@@ -1,0 +1,28 @@
+{
+  "threshold_percentage_points": 5.0,
+  "supplied_rows": 1262,
+  "matched_rows": 960,
+  "matched_players": 960,
+  "supplied_players": 1262,
+  "material_player_fraction": 0.603125,
+  "stats": {
+    "first_serve_pct": {
+      "n_rows": 960,
+      "mae_percentage_points": 4.210124820015332,
+      "pearson_correlation": 0.23753567246991397,
+      "material_fraction": 0.3145833333333333
+    },
+    "first_serve_win_pct": {
+      "n_rows": 960,
+      "mae_percentage_points": 4.744022167058195,
+      "pearson_correlation": 0.5325648141797138,
+      "material_fraction": 0.33541666666666664
+    },
+    "second_serve_win_pct": {
+      "n_rows": 960,
+      "mae_percentage_points": 4.719911054431057,
+      "pearson_correlation": 0.28280021064139005,
+      "material_fraction": 0.3302083333333333
+    }
+  }
+}
