@@ -1,0 +1,111 @@
+{
+  "params": {
+    "max_depth": 3,
+    "learning_rate": 0.09237421878009823,
+    "n_estimators": 150
+  },
+  "scores": {
+    "safe_logistic": {
+      "mean_brier": 0.2178617318028754,
+      "folds": [
+        {
+          "year": 2018,
+          "n_matches": 2942,
+          "brier": 0.21755057688819934
+        },
+        {
+          "year": 2019,
+          "n_matches": 2680,
+          "brier": 0.2217206064244996
+        },
+        {
+          "year": 2020,
+          "n_matches": 1418,
+          "brier": 0.21431401209592726
+        }
+      ]
+    },
+    "safe_xgb": {
+      "mean_brier": 0.21724176819756913,
+      "folds": [
+        {
+          "year": 2018,
+          "n_matches": 2942,
+          "brier": 0.21613244605854803
+        },
+        {
+          "year": 2019,
+          "n_matches": 2680,
+          "brier": 0.22111484893810127
+        },
+        {
+          "year": 2020,
+          "n_matches": 1418,
+          "brier": 0.21447800959605817
+        }
+      ]
+    },
+    "safe_xgb_tuned": {
+      "mean_brier": 0.2171855826137544,
+      "folds": [
+        {
+          "year": 2018,
+          "n_matches": 2942,
+          "brier": 0.2159647903550618
+        },
+        {
+          "year": 2019,
+          "n_matches": 2680,
+          "brier": 0.22127031647143316
+        },
+        {
+          "year": 2020,
+          "n_matches": 1418,
+          "brier": 0.21432164101476814
+        }
+      ]
+    },
+    "safe_mlp": {
+      "mean_brier": 0.21737977440752831,
+      "folds": [
+        {
+          "year": 2018,
+          "n_matches": 2942,
+          "brier": 0.21733348044689874
+        },
+        {
+          "year": 2019,
+          "n_matches": 2680,
+          "brier": 0.22147627400505765
+        },
+        {
+          "year": 2020,
+          "n_matches": 1418,
+          "brier": 0.21332956877062864
+        }
+      ]
+    },
+    "point_in_time_serve": {
+      "mean_brier": 0.2173860145993729,
+      "folds": [
+        {
+          "year": 2018,
+          "n_matches": 2942,
+          "brier": 0.21651122328192168
+        },
+        {
+          "year": 2019,
+          "n_matches": 2680,
+          "brier": 0.22152238431999938
+        },
+        {
+          "year": 2020,
+          "n_matches": 1418,
+          "brier": 0.21412443619619762
+        }
+      ]
+    }
+  },
+  "selected": "safe_xgb_tuned",
+  "criterion": "minimum equal-year mean expanding-window Brier; training years only"
+}
