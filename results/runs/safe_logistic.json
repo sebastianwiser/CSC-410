@@ -1,0 +1,92 @@
+{
+  "name": "safe_logistic",
+  "metrics": {
+    "accuracy": 0.6474757952973721,
+    "roc_auc": 0.7159034285924061,
+    "brier": 0.2143628692238023,
+    "n_matches": 11568,
+    "train_rows": 36822,
+    "fit_and_predict_seconds": 0.073714833939448
+  },
+  "features": [
+    "rank_diff",
+    "log_rank_diff",
+    "pts_diff",
+    "age_diff",
+    "elo_diff",
+    "h2h_rate",
+    "form_diff",
+    "surface",
+    "round",
+    "best_of",
+    "tourney_level"
+  ],
+  "provenance": "date-batched ATP historical features",
+  "validation": {
+    "mean_brier": 0.2178617318028754,
+    "folds": [
+      {
+        "year": 2018,
+        "n_matches": 2942,
+        "brier": 0.21755057688819934
+      },
+      {
+        "year": 2019,
+        "n_matches": 2680,
+        "brier": 0.2217206064244996
+      },
+      {
+        "year": 2020,
+        "n_matches": 1418,
+        "brier": 0.21431401209592726
+      }
+    ]
+  },
+  "mlflow_run_id": "b4cc34a4302c45628b2118b72eee6ff5",
+  "estimator_parameters": {
+    "memory": "None",
+    "transform_input": "None",
+    "verbose": "False",
+    "pre__force_int_remainder_cols": "True",
+    "pre__n_jobs": "None",
+    "pre__remainder": "drop",
+    "pre__sparse_threshold": "0.3",
+    "pre__transformer_weights": "None",
+    "pre__verbose": "False",
+    "pre__verbose_feature_names_out": "True",
+    "pre__num__memory": "None",
+    "pre__num__transform_input": "None",
+    "pre__num__verbose": "False",
+    "pre__num__impute__add_indicator": "False",
+    "pre__num__impute__copy": "True",
+    "pre__num__impute__fill_value": "None",
+    "pre__num__impute__keep_empty_features": "False",
+    "pre__num__impute__missing_values": "nan",
+    "pre__num__impute__strategy": "median",
+    "pre__num__scale__copy": "True",
+    "pre__num__scale__with_mean": "True",
+    "pre__num__scale__with_std": "True",
+    "pre__cat__categories": "auto",
+    "pre__cat__drop": "None",
+    "pre__cat__feature_name_combiner": "concat",
+    "pre__cat__handle_unknown": "ignore",
+    "pre__cat__max_categories": "None",
+    "pre__cat__min_frequency": "None",
+    "pre__cat__sparse_output": "False",
+    "clf__C": "1.0",
+    "clf__class_weight": "None",
+    "clf__dual": "False",
+    "clf__fit_intercept": "True",
+    "clf__intercept_scaling": "1",
+    "clf__l1_ratio": "None",
+    "clf__max_iter": "1000",
+    "clf__multi_class": "deprecated",
+    "clf__n_jobs": "None",
+    "clf__penalty": "l2",
+    "clf__random_state": "42",
+    "clf__solver": "lbfgs",
+    "clf__tol": "0.0001",
+    "clf__verbose": "0",
+    "clf__warm_start": "False"
+  }
+}
