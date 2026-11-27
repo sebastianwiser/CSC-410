@@ -1,0 +1,7 @@
+{
+  "model": "safe_xgb_tuned",
+  "target": "underlying oriented XGBoost raw margin (log odds); final probabilities also symmetrize player order",
+  "sample_rows": 141,
+  "period": "training only",
+  "seed": 42
+}
