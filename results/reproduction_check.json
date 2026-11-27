@@ -1,0 +1,41 @@
+{
+  "source_commit": "5ffe8540003088686566519011fdb4f7986f9188",
+  "method": "tracked-files-only export without trained artifacts, feature caches or MLflow store; shared installed pinned environment; reuse committed holdout predictions, rebuild selected artifact from training only",
+  "steps": [
+    {
+      "command": "python -m portfolio.run",
+      "exit_code": 0
+    },
+    {
+      "command": "python evaluate.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m extensions.llm_audit.audit",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m portfolio.rebuild",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m extensions.shap.explain",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m extensions.mlflow.summarize",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m portfolio.report",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m pytest -q",
+      "exit_code": 0
+    }
+  ],
+  "saved_evaluation_unchanged": true,
+  "saved_predictions_unchanged": true,
+  "temporary_review_directory": "/tmp/atp-final-review-g2akhwqn"
+}
