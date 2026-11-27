@@ -1,0 +1,13 @@
+{
+  "purpose": "Preserve original model and SQL source plus the supplied presentation",
+  "files": {
+    "CSC410Pres/models/model_1/model_1.py": "acbdd82b41dc327604eb7a3bce2ef6c6647d61ac323f064378b21a3f58f0cba0",
+    "CSC410Pres/models/model_2/model_2.py": "b3fcf07e499b12a008ef8cc5cfa023f37d6ac3aaab84ee9c90d871ee6e87cf67",
+    "CSC410Pres/models/model_3/model_3.py": "46cbc60e6ae8eb18efa6eb0c2ce65f703de27cd48666be8b66e4e189c74fdbe7",
+    "CSC410Pres/models/model_4/model_4.py": "4d0437bf1320cdbab7a76540aa45701d70cbb501e67a8e2c590c6d86275715e3",
+    "CSC410Pres/models/model_5/model_5.py": "cf054487e5eae9375cdd1469d948b2d27ff577d94260f61471a5954ccd1912d9",
+    "CSC410Pres/models/model_6/model_6.py": "5a878b850e9d2f53d408b22c1eb5cc0f4df0ba4e23dbce3aaeca149c160c6c3a",
+    "CSC410Pres/processing/build_single_input.sql": "0dac3d0558e931fd59446a55f2da0496169ca753af49db3408ef7acc7eb868a6",
+    "docs/presentation.pdf": "baab84a71b85c708a70a19296d691449f1c780c2a7942dfd6e38e738a667c0dd"
+  }
+}

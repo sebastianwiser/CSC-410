@@ -1,0 +1,17 @@
+{
+  "logistic_baseline": {
+    "measured_accuracy": 0.6359351988217967,
+    "delta_percentage_points": -0.006480117820328868,
+    "differs_at_reference_precision": false
+  },
+  "model_2": {
+    "measured_accuracy": 0.6549828178694158,
+    "delta_percentage_points": -0.0017182130584214583,
+    "differs_at_reference_precision": false
+  },
+  "model_6": {
+    "measured_accuracy": 0.6572410407461954,
+    "delta_percentage_points": 0.024104074619535343,
+    "differs_at_reference_precision": false
+  }
+}

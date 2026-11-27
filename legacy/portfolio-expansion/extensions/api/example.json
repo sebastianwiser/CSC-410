@@ -1,0 +1,6 @@
+{
+  "player1": {"name": "Example A", "rank": 10, "points": 3500, "age": 26, "elo": 1800, "recent_win_rate": 0.65},
+  "player2": {"name": "Example B", "rank": 30, "points": 1500, "age": 28, "elo": 1700, "recent_win_rate": 0.55},
+  "match_date": "2024-01-10", "history_through": "2024-01-09", "h2h_player1_win_rate": 0.5,
+  "surface": "hard", "round": "r32", "best_of": "3", "tourney_level": "A"
+}

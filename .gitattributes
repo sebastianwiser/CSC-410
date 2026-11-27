@@ -1,0 +1,2 @@
+# Preserve byte-identical archived data and recognize its inherited CRLF endings.
+legacy/root_duplicates/atp_players_1261.csv -text whitespace=cr-at-eol

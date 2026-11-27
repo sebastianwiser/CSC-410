@@ -1,0 +1,121 @@
+[
+  {
+    "original": "top_100_playstyle_report.json",
+    "archived": "legacy/root_duplicates/top_100_playstyle_report.json",
+    "duplicate_of": [
+      "CSC410Pres/data/playstyle_reports/top_100_playstyle_report.json"
+    ]
+  },
+  {
+    "original": "top_1100_playstyle_report.json",
+    "archived": "legacy/root_duplicates/top_1100_playstyle_report.json",
+    "duplicate_of": [
+      "CSC410Pres/data/playstyle_reports/top_1100_playstyle_report.json"
+    ]
+  },
+  {
+    "original": "top_500_playstyle_report.json",
+    "archived": "legacy/root_duplicates/top_500_playstyle_report.json",
+    "duplicate_of": [
+      "CSC410Pres/data/playstyle_reports/top_500_playstyle_report.json"
+    ]
+  },
+  {
+    "original": "atp_players_1261.csv",
+    "archived": "legacy/root_duplicates/atp_players_1261.csv",
+    "duplicate_of": [
+      "CSC410Pres/data/processed/atp_players_1261.csv"
+    ]
+  },
+  {
+    "original": "top_1200_playstyle_report.json",
+    "archived": "legacy/root_duplicates/top_1200_playstyle_report.json",
+    "duplicate_of": [
+      "CSC410Pres/data/playstyle_reports/top_1200_playstyle_report.json"
+    ]
+  },
+  {
+    "original": "top_900_playstyle_report.json",
+    "archived": "legacy/root_duplicates/top_900_playstyle_report.json",
+    "duplicate_of": [
+      "CSC410Pres/data/playstyle_reports/top_900_playstyle_report.json"
+    ]
+  },
+  {
+    "original": "top_600_playstyle_report.json",
+    "archived": "legacy/root_duplicates/top_600_playstyle_report.json",
+    "duplicate_of": [
+      "CSC410Pres/data/playstyle_reports/top_600_playstyle_report.json"
+    ]
+  },
+  {
+    "original": "top_200_playstyle_report.json",
+    "archived": "legacy/root_duplicates/top_200_playstyle_report.json",
+    "duplicate_of": [
+      "CSC410Pres/data/playstyle_reports/top_200_playstyle_report.json"
+    ]
+  },
+  {
+    "original": "top_400_playstyle_report.json",
+    "archived": "legacy/root_duplicates/top_400_playstyle_report.json",
+    "duplicate_of": [
+      "CSC410Pres/data/playstyle_reports/top_400_playstyle_report.json"
+    ]
+  },
+  {
+    "original": "top_1000_playstyle_report.json",
+    "archived": "legacy/root_duplicates/top_1000_playstyle_report.json",
+    "duplicate_of": [
+      "CSC410Pres/data/playstyle_reports/top_1000_playstyle_report.json"
+    ]
+  },
+  {
+    "original": "top_1261_playstyle_report.json",
+    "archived": "legacy/root_duplicates/top_1261_playstyle_report.json",
+    "duplicate_of": [
+      "CSC410Pres/data/playstyle_reports/top_1261_playstyle_report.json"
+    ]
+  },
+  {
+    "original": "top_300_playstyle_report.json",
+    "archived": "legacy/root_duplicates/top_300_playstyle_report.json",
+    "duplicate_of": [
+      "CSC410Pres/data/playstyle_reports/top_300_playstyle_report.json"
+    ]
+  },
+  {
+    "original": "gemini_serve_3.csv",
+    "archived": "legacy/root_duplicates/gemini_serve_3.csv",
+    "duplicate_of": [
+      "CSC410Pres/data/serve_data/gemini_serve_3.csv"
+    ]
+  },
+  {
+    "original": "top_700_playstyle_report.json",
+    "archived": "legacy/root_duplicates/top_700_playstyle_report.json",
+    "duplicate_of": [
+      "CSC410Pres/data/playstyle_reports/top_700_playstyle_report.json"
+    ]
+  },
+  {
+    "original": "top_800_playstyle_report.json",
+    "archived": "legacy/root_duplicates/top_800_playstyle_report.json",
+    "duplicate_of": [
+      "CSC410Pres/data/playstyle_reports/top_800_playstyle_report.json"
+    ]
+  },
+  {
+    "original": "gemini_serve_2.csv",
+    "archived": "legacy/root_duplicates/gemini_serve_2.csv",
+    "duplicate_of": [
+      "CSC410Pres/data/serve_data/gemini_serve_2.csv"
+    ]
+  },
+  {
+    "original": "gemini_serve_1.csv",
+    "archived": "legacy/root_duplicates/gemini_serve_1.csv",
+    "duplicate_of": [
+      "CSC410Pres/data/serve_data/gemini_serve_1.csv"
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "safe_xgb vs safe_xgb": {
+    "n": 11568,
+    "accuracy_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "discordant_wins": 0,
+    "discordant_losses": 0,
+    "mcnemar_p": 1.0
+  },
+  "safe_xgb_tuned vs safe_xgb": {
+    "n": 11568,
+    "accuracy_difference": 0.0004322268326417704,
+    "ci95": [
+      -0.0018153526970954357,
+      0.0026798063623789765
+    ],
+    "discordant_wins": 84,
+    "discordant_losses": 79,
+    "mcnemar_p": 0.7541603898054384
+  },
+  "safe_mlp vs safe_xgb": {
+    "n": 11568,
+    "accuracy_difference": 0.0006915629322268327,
+    "ci95": [
+      -0.0033713692946058093,
+      0.004840940525587829
+    ],
+    "discordant_wins": 281,
+    "discordant_losses": 273,
+    "mcnemar_p": 0.7661912153011182
+  },
+  "point_in_time_serve vs safe_xgb": {
+    "n": 11568,
+    "accuracy_difference": -8.644536652835408e-05,
+    "ci95": [
+      -0.0038035961272475795,
+      0.0035464211618257144
+    ],
+    "discordant_wins": 235,
+    "discordant_losses": 236,
+    "mcnemar_p": 1.0
+  }
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "number": 0,
+    "params": {
+      "max_depth": 3,
+      "learning_rate": 0.05,
+      "n_estimators": 200
+    },
+    "value": 0.21724176819756913,
+    "folds": [
+      {
+        "year": 2018,
+        "n_matches": 2942,
+        "brier": 0.21613244605854803
+      },
+      {
+        "year": 2019,
+        "n_matches": 2680,
+        "brier": 0.22111484893810127
+      },
+      {
+        "year": 2020,
+        "n_matches": 1418,
+        "brier": 0.21447800959605817
+      }
+    ]
+  },
+  {
+    "number": 1,
+    "params": {
+      "max_depth": 3,
+      "learning_rate": 0.09237421878009823,
+      "n_estimators": 150
+    },
+    "value": 0.2171855826137544,
+    "folds": [
+      {
+        "year": 2018,
+        "n_matches": 2942,
+        "brier": 0.2159647903550618
+      },
+      {
+        "year": 2019,
+        "n_matches": 2680,
+        "brier": 0.22127031647143316
+      },
+      {
+        "year": 2020,
+        "n_matches": 1418,
+        "brier": 0.21432164101476814
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "params": {
+      "max_depth": 2,
+      "learning_rate": 0.021959816073193316,
+      "n_estimators": 150
+    },
+    "value": 0.2195525418940711,
+    "folds": [
+      {
+        "year": 2018,
+        "n_matches": 2942,
+        "brier": 0.21844918478138178
+      },
+      {
+        "year": 2019,
+        "n_matches": 2680,
+        "brier": 0.22325424825814816
+      },
+      {
+        "year": 2020,
+        "n_matches": 1418,
+        "brier": 0.2169541926426833
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "params": {
+      "max_depth": 2,
+      "learning_rate": 0.09527257190058894,
+      "n_estimators": 150
+    },
+    "value": 0.21790078145993927,
+    "folds": [
+      {
+        "year": 2018,
+        "n_matches": 2942,
+        "brier": 0.21680264736977642
+      },
+      {
+        "year": 2019,
+        "n_matches": 2680,
+        "brier": 0.221976648138952
+      },
+      {
+        "year": 2020,
+        "n_matches": 1418,
+        "brier": 0.21492304887108937
+      }
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "name": "safe_xgb_tuned",
+  "artifact": "results/artifacts/safe_xgb_tuned.joblib",
+  "selection": "minimum equal-year mean expanding-window Brier; training years only"
+}

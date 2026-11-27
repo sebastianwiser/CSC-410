@@ -1,0 +1,24 @@
+name: Portfolio checks
+on: [push, pull_request]
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MPLCONFIGDIR: /tmp/atp-mpl
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+          cache: pip
+          cache-dependency-path: requirements-portfolio.lock.txt
+      - run: pip install -r requirements-portfolio.lock.txt
+      - name: Rebuild selected artifact from training data only
+        run: python -m portfolio.rebuild
+      - run: python -m pytest -q --junitxml=results/ci-tests.xml
+      - name: Check reported metrics against committed predictions
+        run: |
+          python evaluate.py
+          git diff --exit-code -- results/metrics.json results/comparisons.json results/ablation.md

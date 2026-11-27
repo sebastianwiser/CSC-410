@@ -1,0 +1,430 @@
+{
+  "logistic_baseline vs model_2": {
+    "n": 10185,
+    "accuracy_difference": -0.01904761904761905,
+    "ci95": [
+      -0.027000490918016692,
+      -0.011092292587137962
+    ],
+    "discordant_wins": 759,
+    "discordant_losses": 953,
+    "mcnemar_p": 3.023184871351187e-06,
+    "alignment": {
+      "method": "exact source match IDs",
+      "matched": 10185,
+      "unmatched": 0
+    }
+  },
+  "logistic_baseline vs logistic_baseline": {
+    "n": 10185,
+    "accuracy_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "discordant_wins": 0,
+    "discordant_losses": 0,
+    "mcnemar_p": 1.0,
+    "alignment": {
+      "method": "exact source match IDs",
+      "matched": 10185,
+      "unmatched": 0
+    }
+  },
+  "model_1 vs model_2": {
+    "n": 8700,
+    "accuracy_difference": -0.014022988505747127,
+    "ci95": [
+      -0.022528735632183907,
+      -0.005747126436781609
+    ],
+    "discordant_wins": 665,
+    "discordant_losses": 787,
+    "mcnemar_p": 0.001487629257371835,
+    "alignment": {
+      "method": "unique same-player-pair/surface within date tolerance; inspect alignment.csv",
+      "matched": 8700,
+      "unmatched": 2868,
+      "max_date_gap_days": 14
+    }
+  },
+  "model_1 vs logistic_baseline": {
+    "n": 8700,
+    "accuracy_difference": 0.004597701149425287,
+    "ci95": [
+      0.0004597701149425287,
+      0.008505747126436782
+    ],
+    "discordant_wins": 173,
+    "discordant_losses": 133,
+    "mcnemar_p": 0.02562124906276223,
+    "alignment": {
+      "method": "unique same-player-pair/surface within date tolerance; inspect alignment.csv",
+      "matched": 8700,
+      "unmatched": 2868,
+      "max_date_gap_days": 14
+    }
+  },
+  "model_2 vs model_2": {
+    "n": 10185,
+    "accuracy_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "discordant_wins": 0,
+    "discordant_losses": 0,
+    "mcnemar_p": 1.0,
+    "alignment": {
+      "method": "exact source match IDs",
+      "matched": 10185,
+      "unmatched": 0
+    }
+  },
+  "model_2 vs logistic_baseline": {
+    "n": 10185,
+    "accuracy_difference": 0.01904761904761905,
+    "ci95": [
+      0.011092292587137948,
+      0.027000490918016692
+    ],
+    "discordant_wins": 953,
+    "discordant_losses": 759,
+    "mcnemar_p": 3.023184871351187e-06,
+    "alignment": {
+      "method": "exact source match IDs",
+      "matched": 10185,
+      "unmatched": 0
+    }
+  },
+  "model_3 vs model_2": {
+    "n": 10185,
+    "accuracy_difference": 0.0028473244968090328,
+    "ci95": [
+      -0.0022582228767795776,
+      0.007854688267059401
+    ],
+    "discordant_wins": 368,
+    "discordant_losses": 339,
+    "mcnemar_p": 0.2923127240784866,
+    "alignment": {
+      "method": "exact source match IDs",
+      "matched": 10185,
+      "unmatched": 0
+    }
+  },
+  "model_3 vs logistic_baseline": {
+    "n": 10185,
+    "accuracy_difference": 0.02189494354442808,
+    "ci95": [
+      0.013843888070692194,
+      0.030144820814923895
+    ],
+    "discordant_wins": 1002,
+    "discordant_losses": 779,
+    "mcnemar_p": 1.386490832774382e-07,
+    "alignment": {
+      "method": "exact source match IDs",
+      "matched": 10185,
+      "unmatched": 0
+    }
+  },
+  "model_4 vs model_2": {
+    "n": 10185,
+    "accuracy_difference": -9.818360333824252e-05,
+    "ci95": [
+      -0.0027491408934707906,
+      0.0025527736867943054
+    ],
+    "discordant_wins": 96,
+    "discordant_losses": 97,
+    "mcnemar_p": 1.0,
+    "alignment": {
+      "method": "exact source match IDs",
+      "matched": 10185,
+      "unmatched": 0
+    }
+  },
+  "model_4 vs logistic_baseline": {
+    "n": 10185,
+    "accuracy_difference": 0.018949435444280804,
+    "ci95": [
+      0.011192930780559647,
+      0.02690230731467845
+    ],
+    "discordant_wins": 959,
+    "discordant_losses": 766,
+    "mcnemar_p": 3.703091213287247e-06,
+    "alignment": {
+      "method": "exact source match IDs",
+      "matched": 10185,
+      "unmatched": 0
+    }
+  },
+  "model_5 vs model_2": {
+    "n": 10185,
+    "accuracy_difference": -0.0004909180166912126,
+    "ci95": [
+      -0.003829160530191458,
+      0.0027515954835542335
+    ],
+    "discordant_wins": 151,
+    "discordant_losses": 156,
+    "mcnemar_p": 0.8194650848899856,
+    "alignment": {
+      "method": "exact source match IDs",
+      "matched": 10185,
+      "unmatched": 0
+    }
+  },
+  "model_5 vs logistic_baseline": {
+    "n": 10185,
+    "accuracy_difference": 0.018556701030927835,
+    "ci95": [
+      0.010699558173784977,
+      0.026119293078055952
+    ],
+    "discordant_wins": 937,
+    "discordant_losses": 748,
+    "mcnemar_p": 4.5515009703432875e-06,
+    "alignment": {
+      "method": "exact source match IDs",
+      "matched": 10185,
+      "unmatched": 0
+    }
+  },
+  "model_6 vs model_2": {
+    "n": 10185,
+    "accuracy_difference": 0.0022582228767795776,
+    "ci95": [
+      -0.0031443298969072164,
+      0.007756504663721159
+    ],
+    "discordant_wins": 423,
+    "discordant_losses": 400,
+    "mcnemar_p": 0.44317684612825176,
+    "alignment": {
+      "method": "exact source match IDs",
+      "matched": 10185,
+      "unmatched": 0
+    }
+  },
+  "model_6 vs logistic_baseline": {
+    "n": 10185,
+    "accuracy_difference": 0.021305841924398626,
+    "ci95": [
+      0.012567501227295042,
+      0.029553264604810996
+    ],
+    "discordant_wins": 1009,
+    "discordant_losses": 792,
+    "mcnemar_p": 3.4754429422791694e-07,
+    "alignment": {
+      "method": "exact source match IDs",
+      "matched": 10185,
+      "unmatched": 0
+    }
+  },
+  "point_in_time_serve vs model_2": {
+    "n": 8700,
+    "accuracy_difference": -0.006666666666666667,
+    "ci95": [
+      -0.013795977011494253,
+      0.0003448275862068965
+    ],
+    "discordant_wins": 512,
+    "discordant_losses": 570,
+    "mcnemar_p": 0.08307461890472903,
+    "alignment": {
+      "method": "unique same-player-pair/surface within date tolerance; inspect alignment.csv",
+      "matched": 8700,
+      "unmatched": 2868,
+      "max_date_gap_days": 14
+    }
+  },
+  "point_in_time_serve vs logistic_baseline": {
+    "n": 8700,
+    "accuracy_difference": 0.011954022988505748,
+    "ci95": [
+      0.004482758620689655,
+      0.01908045977011494
+    ],
+    "discordant_wins": 527,
+    "discordant_losses": 423,
+    "mcnemar_p": 0.0008235548454172425,
+    "alignment": {
+      "method": "unique same-player-pair/surface within date tolerance; inspect alignment.csv",
+      "matched": 8700,
+      "unmatched": 2868,
+      "max_date_gap_days": 14
+    }
+  },
+  "rank_baseline vs model_2": {
+    "n": 10185,
+    "accuracy_difference": -0.017869415807560136,
+    "ci95": [
+      -0.026313205694648994,
+      -0.009815905743740808
+    ],
+    "discordant_wins": 774,
+    "discordant_losses": 956,
+    "mcnemar_p": 1.3279956141028807e-05,
+    "alignment": {
+      "method": "exact source match IDs",
+      "matched": 10185,
+      "unmatched": 0
+    }
+  },
+  "rank_baseline vs logistic_baseline": {
+    "n": 10185,
+    "accuracy_difference": 0.00117820324005891,
+    "ci95": [
+      -0.0018679430535100637,
+      0.004123711340206186
+    ],
+    "discordant_wins": 129,
+    "discordant_losses": 117,
+    "mcnemar_p": 0.48317056022932703,
+    "alignment": {
+      "method": "exact source match IDs",
+      "matched": 10185,
+      "unmatched": 0
+    }
+  },
+  "safe_logistic vs model_2": {
+    "n": 8700,
+    "accuracy_difference": -0.008735632183908045,
+    "ci95": [
+      -0.015862068965517243,
+      -0.001264367816091954
+    ],
+    "discordant_wins": 493,
+    "discordant_losses": 569,
+    "mcnemar_p": 0.021323122154401,
+    "alignment": {
+      "method": "unique same-player-pair/surface within date tolerance; inspect alignment.csv",
+      "matched": 8700,
+      "unmatched": 2868,
+      "max_date_gap_days": 14
+    }
+  },
+  "safe_logistic vs logistic_baseline": {
+    "n": 8700,
+    "accuracy_difference": 0.009885057471264367,
+    "ci95": [
+      0.003563218390804598,
+      0.01632183908045977
+    ],
+    "discordant_wins": 442,
+    "discordant_losses": 356,
+    "mcnemar_p": 0.00259953294500788,
+    "alignment": {
+      "method": "unique same-player-pair/surface within date tolerance; inspect alignment.csv",
+      "matched": 8700,
+      "unmatched": 2868,
+      "max_date_gap_days": 14
+    }
+  },
+  "safe_mlp vs model_2": {
+    "n": 8700,
+    "accuracy_difference": -0.006206896551724138,
+    "ci95": [
+      -0.01310344827586207,
+      0.0010344827586206897
+    ],
+    "discordant_wins": 507,
+    "discordant_losses": 561,
+    "mcnemar_p": 0.10480763085758638,
+    "alignment": {
+      "method": "unique same-player-pair/surface within date tolerance; inspect alignment.csv",
+      "matched": 8700,
+      "unmatched": 2868,
+      "max_date_gap_days": 14
+    }
+  },
+  "safe_mlp vs logistic_baseline": {
+    "n": 8700,
+    "accuracy_difference": 0.012413793103448275,
+    "ci95": [
+      0.005632183908045977,
+      0.01896551724137931
+    ],
+    "discordant_wins": 493,
+    "discordant_losses": 385,
+    "mcnemar_p": 0.00030008826145326047,
+    "alignment": {
+      "method": "unique same-player-pair/surface within date tolerance; inspect alignment.csv",
+      "matched": 8700,
+      "unmatched": 2868,
+      "max_date_gap_days": 14
+    }
+  },
+  "safe_xgb vs model_2": {
+    "n": 8700,
+    "accuracy_difference": -0.006436781609195402,
+    "ci95": [
+      -0.013793103448275862,
+      0.0009224137931034326
+    ],
+    "discordant_wins": 512,
+    "discordant_losses": 568,
+    "mcnemar_p": 0.09416414145146769,
+    "alignment": {
+      "method": "unique same-player-pair/surface within date tolerance; inspect alignment.csv",
+      "matched": 8700,
+      "unmatched": 2868,
+      "max_date_gap_days": 14
+    }
+  },
+  "safe_xgb vs logistic_baseline": {
+    "n": 8700,
+    "accuracy_difference": 0.01218390804597701,
+    "ci95": [
+      0.005402298850574713,
+      0.018620689655172412
+    ],
+    "discordant_wins": 473,
+    "discordant_losses": 367,
+    "mcnemar_p": 0.00028648174127731383,
+    "alignment": {
+      "method": "unique same-player-pair/surface within date tolerance; inspect alignment.csv",
+      "matched": 8700,
+      "unmatched": 2868,
+      "max_date_gap_days": 14
+    }
+  },
+  "safe_xgb_tuned vs model_2": {
+    "n": 8700,
+    "accuracy_difference": -0.0058620689655172415,
+    "ci95": [
+      -0.012988505747126436,
+      0.0014942528735632185
+    ],
+    "discordant_wins": 507,
+    "discordant_losses": 558,
+    "mcnemar_p": 0.12545087100658886,
+    "alignment": {
+      "method": "unique same-player-pair/surface within date tolerance; inspect alignment.csv",
+      "matched": 8700,
+      "unmatched": 2868,
+      "max_date_gap_days": 14
+    }
+  },
+  "safe_xgb_tuned vs logistic_baseline": {
+    "n": 8700,
+    "accuracy_difference": 0.012758620689655173,
+    "ci95": [
+      0.005747126436781609,
+      0.01942528735632184
+    ],
+    "discordant_wins": 503,
+    "discordant_losses": 392,
+    "mcnemar_p": 0.00023213508318219484,
+    "alignment": {
+      "method": "unique same-player-pair/surface within date tolerance; inspect alignment.csv",
+      "matched": 8700,
+      "unmatched": 2868,
+      "max_date_gap_days": 14
+    }
+  }
+}

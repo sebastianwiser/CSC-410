@@ -1,0 +1,12 @@
+name: Class project checks
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+      - name: Verify original sources and saved results
+        run: python scripts/check_project.py

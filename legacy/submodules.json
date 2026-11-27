@@ -1,0 +1,17 @@
+[
+  {
+    "path": "tennis_atp",
+    "commit": "5b6263dc487b4fa4fa35326764bc9b0215042a42",
+    "status": "empty checkout; remote URL absent; unresolved source provenance"
+  },
+  {
+    "path": "tennis_odds",
+    "commit": "ffbc27d75ac1608afd12d380e01f9f766b6c965b",
+    "status": "empty checkout; remote URL absent; unresolved source provenance"
+  },
+  {
+    "path": "tennis_sql",
+    "commit": "f03c782f306df3240fd1a26dd79edfe872eafbe5",
+    "status": "empty checkout; remote URL absent; unresolved source provenance"
+  }
+]

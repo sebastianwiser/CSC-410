@@ -1,0 +1,8 @@
+{
+  "python": "3.11.15",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "docker_cli_available": false,
+  "raw_test_duplicate_natural_keys": 0,
+  "processed_test_duplicate_natural_keys": 0,
+  "legacy_model_changes": ""
+}
